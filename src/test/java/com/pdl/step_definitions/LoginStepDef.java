@@ -136,12 +136,12 @@ public class LoginStepDef extends CommonMethods  {
 		case "Business Analyst":
 
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("BusAnyst"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("BusAnyst"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e1) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("BusAnyst"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("BusAnyst"));
 			}
 
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("BusAnystPassWord"));
@@ -149,155 +149,155 @@ public class LoginStepDef extends CommonMethods  {
 			break;
 		case "Contract Analyst":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("ContAnyst"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("ContAnyst"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("ContAnyst"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("ContAnyst"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("ContAnystPassWord"));
 			break;
 		case "Data Entry Specialist":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("DataSplist"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("DataSplist"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("DataSplist"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("DataSplist"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("DataSplistPassWord"));
 			break;
 
 		case "Operations Admin":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("OpsAdmin"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("OpsAdmin"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("OpsAdmin"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("OpsAdmin"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("OpsAdminPassWord"));
 			break;
 
 		case "Rebate Analyst":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("RebAnyst"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("RebAnyst"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("RebAnyst"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("RebAnyst"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("RebAnystPassWord"));
 			break;
 
 		case "Rebate Pharmacist":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("RebPhar"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("RebPhar"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("RebPhar"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("RebPhar"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("RebPharPassWord"));
 			break;
 
 		case "Rebate Analyst - External":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("RebAnystExt"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("RebAnystExt"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("RebAnystExt"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("RebAnystExt"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("RebAnystExtPassWord"));
 			break;
 
 		case "Pharmacy Analyst - External":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("PharAnystExt"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("PharAnystExt"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("PharAnystExt"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("PharAnystExt"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("PharAnystExtPassWord"));
 			break;
 
 		case "Business Analyst - External":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("BusAnystExt"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("BusAnystExt"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("BusAnystExt"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("BusAnystExt"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("BusAnystExtPassWord"));
 			break;
 
 		case "Contracting - External":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("ContractingExt"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("ContractingExt"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("ContractingExt"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("ContractingExt"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("ContractingExtPassWord"));
 			break;
 
 		case "Medical Supply - External":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("MedSuppyExt"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("MedSuppyExt"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("MedSuppyExt"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("MedSuppyExt"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("MedSuppyExtPassWord"));
 			break;
 
 		case "Manufacturer- External-User1":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("Mfr1"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("Mfr1"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("Mfr1"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("Mfr1"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("Mfr1PassWord"));
 			break;
 
 		case "Manufacturer- External-User2":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("Mfr2"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("Mfr2"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("Mfr2"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("Mfr2"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("Mfr2PassWord"));
 			break;
 
 		case "Manufacturer- External-User3":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("Mfr3"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("Mfr3"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("Mfr3"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("Mfr3"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("Mfr3PassWord"));
 			break;
@@ -305,12 +305,12 @@ public class LoginStepDef extends CommonMethods  {
 //	                     break;
 		case "Manufacturer-UAC-User1":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("mrxmfruacone"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("mrxmfruacone"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("mrxmfruacone"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("mrxmfruacone"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("mrxmfruaconePassWord"));
 			break;
@@ -318,24 +318,24 @@ public class LoginStepDef extends CommonMethods  {
 //	                     break;
 		case "Manufacturer-UAC-User2":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("mfruactwo"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("mfruactwo"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("mfruactwo"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("mfruactwo"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("mfruactwoPassWord"));
 			break;
 			
 		case "Manufacturer-UAC-User3":
 			try {
-				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("mfruacthree"));
+//				signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("mfruacthree"));
 				Driver.getDriver().findElement(By.id("idp-discovery-submit")).click();
 
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				signInPage.username.sendKeys(ConfigurationReader.getProperty("mfruacthree"));
+//				signInPage.username.sendKeys(ConfigurationReader.getProperty("mfruacthree"));
 			}
 			signInPage.password.sendKeys(ConfigurationReader.getProperty("mfruacthreePassWord"));
 			break;
@@ -378,10 +378,10 @@ public class LoginStepDef extends CommonMethods  {
 		logger.info("Business Line: "+businessLineDD);
 		waitForPageToLoad();
 		// Using examples
-		fluentWait(homePage.businessLine, 10);
-		homePage.businessLine.click();
+//		fluentWait(homePage.businessLine, 10);
+//		homePage.businessLine.click();
 		waitForPageToLoadfor(10);
-		homePageLogic.dropDownOption(homePage.businessLine, businessLineDD);
+//		homePageLogic.dropDownOption(homePage.businessLine, businessLineDD);
 		CommonMethods.waitFor(2);
 	}
 	
@@ -392,10 +392,10 @@ public class LoginStepDef extends CommonMethods  {
 		businessLineFromConfig=ConfigurationReader.getProperty("BusinessLine");
 		logger.info("Business Line: "+businessLineFromConfig);
 		
-		fluentWait(homePage.businessLine, 10);
-		homePage.businessLine.click();
+//		fluentWait(homePage.businessLine, 10);
+//		homePage.businessLine.click();
 		waitForPageToLoadfor(10);
-		homePageLogic.dropDownOption(homePage.businessLine, businessLineFromConfig.trim());
+//		homePageLogic.dropDownOption(homePage.businessLine, businessLineFromConfig.trim());
 		CommonMethods.waitFor(5);
 		
 	}
@@ -407,7 +407,7 @@ public class LoginStepDef extends CommonMethods  {
 		logger.info("Module List: "+arg1);
 		waitForPageToLoadfor(6);
 		// CommonMethods.waitFor(3);
-		homePageLogic.dropDownOption(homePage.moduleList, arg1);
+//		homePageLogic.dropDownOption(homePage.moduleList, arg1);
 	}
 	
 	@When("^user select Configuration option from Module List dropdawn$")
@@ -417,7 +417,7 @@ public class LoginStepDef extends CommonMethods  {
 		muduleListFromConfig= ConfigurationReader.getProperty("MuduleList");
 		logger.info("Module List: "+muduleListFromConfig);
 		waitForPageToLoadfor(6);
-		homePageLogic.dropDownOption(homePage.moduleList, muduleListFromConfig);
+//		homePageLogic.dropDownOption(homePage.moduleList, muduleListFromConfig);
 		CommonMethods.waitFor(1);
 	}
 
@@ -425,7 +425,7 @@ public class LoginStepDef extends CommonMethods  {
 	public void user_select_option_form_Mudule_List_dropdawn(String muduleListDD) throws Throwable {
 		waitForPageToLoadfor(3);
 
-		homePageLogic.dropDownOption(homePage.moduleList, muduleListDD);
+//		homePageLogic.dropDownOption(homePage.moduleList, muduleListDD);
 	}
 	@When("click go")
 	public void click_go() {
@@ -433,7 +433,7 @@ public class LoginStepDef extends CommonMethods  {
 	//*
 			//waitForPageToLoadfor(10);
 			waitForPageToLoadfor(1);
-			homePage.goTab.click();
+//			homePage.goTab.click();
 		}
 	
 	@Then("^user reading page info$")

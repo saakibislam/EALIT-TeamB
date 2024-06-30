@@ -1,74 +1,70 @@
 package com.pdl.step_definitions;
 
-import java.time.Duration;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
+import com.pdl.pages.HomePage;
+import com.pdl.pages.SignInPage;
+import com.pdl.utilities.CommonMethods;
+import com.pdl.utilities.ConfigurationReader;
 import com.pdl.utilities.Driver;
 
-public class QAfoxStepDefinitions {
+public class QAfoxStepDefinitions extends CommonMethods {
 	public static WebDriver driver = Driver.getDriver();
-	
-//	@FindBy(xpath = "//*[@id='top-links']/ul/li[2]/ul/li[2]/a ") public WebElement LoginButton;
+
+//	@FindBy(xpath = "//*[@id='top-links']/ul/li[2]/ul/li[2]/a ") public WebElement loginButton;
 //	@FindBy(name = "email")public WebElement emailField;
 //	@FindBy(name = "password")public WebElement passwordField;
 	
+	public static Logger logger = LogManager.getLogger(QAfoxStepDefinitions.class);
+
 	@Given("User is in homepage")
 	public void user_is_in_homepage() {
-	    // Write code here that turns the phrase above into concrete actions
-		System.out.println("user is in homepage");
+		HomePage homepage = new HomePage();
+		homepage.verifyLandingOnHomepage();
 	}
 
 	@Then("user clicked on Login button")
-	public void user_clicked_on_login_button() throws InterruptedException {
-	    // Write code here that turns the phrase above into concrete actions
-		WebElement accountbutton =  driver.findElement(By.xpath("//a[@title='My Account']"));
-		accountbutton.click();
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until((ExpectedConditions.visibilityOf(driver.findElement(By.linkText("Login")))));
-		driver.findElement(By.linkText("Login")).click();
-		System.out.println("user clicks login button");
-		Thread.sleep(3000);
+	public void user_clicked_on_login_button() {
+		WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[2]/a"));
+		jsclick(driver, loginButton);
+		
+//		WebElement accountbutton = driver.findElement(By.xpath("//a[@title='My Account']"));
+//		accountbutton.click();
+//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		wait.until((ExpectedConditions.visibilityOf(driver.findElement(By.linkText("Login")))));
+//		flash(loginButton, driver);
+//		click_BD(loginButton);
+		
+		logger.info("Navbar Login Button Clicked");
 	}
 
 	@When("user redirected to login page")
 	public void user_redirected_to_login_page() {
-	    // Write code here that turns the phrase above into concrete actions
-		System.out.println("user redirected to login page");
+		logger.info("User Redirected to Login Page");
 	}
 
-	@Then("user typed credentials")
-	public void user_typed_credentials() throws InterruptedException {
-	    // Write code here that turns the phrase above into concrete actions
-		WebElement emailField = driver.findElement(By.name("email"));
-		emailField.clear();
-		emailField.sendKeys("pbotterell0@hexun.com");
-		WebElement passwordField = driver.findElement(By.name("password"));
-		passwordField.clear();
-		passwordField.sendKeys("iW9?c,A%'Ow8p+!");
-		System.out.println("user typed credentials");
-		Thread.sleep(5000);
-	}
+	@Then("user types credentials")
+	public void user_types_credentials() {
 
-	@When("user clicks login button")
-	public void user_clicks_login_button() {
-	    // Write code here that turns the phrase above into concrete actions
-		driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input")).click();
-		System.out.println("user clicked login button");
+		SignInPage loginPage = new SignInPage();
+		loginPage.verifyLoginPage();
+		loginPage.signIn();
 	}
 
 	@Then("verify user redirected to my account page")
 	public void verify_user_redirected_to_my_account_page() {
-	    // Write code here that turns the phrase above into concrete actions
-		System.out.println("verify user is in account page");
+		waitFor(5);
+		String currentPageTitle = driver.getTitle();
+		String ExpectedAccountPageTitle = ConfigurationReader.getProperty("AccountPageTitle");
+		softAssert.softAssertTrue(currentPageTitle.contains(ExpectedAccountPageTitle), "User Landed My Account Page Successfully", "My Account Page Verification Failed");
 	}
 
 }

@@ -7,9 +7,12 @@ Feature: User Login
     Given User is in homepage
     And user clicked on Login button
     When user redirected to login page
-    And user typed credentials
-    Then user clicks login button
-    And verify user redirected to my account page
+    And user types credentials
+    Then verify user redirected to my account page
+
+#Examples:
+#|email|password|
+#|pbotterell0@hexun.com|iW9?c,A%'Ow8p+!|
 
   #@tag2
   #Scenario Outline: Title of your scenario outline
