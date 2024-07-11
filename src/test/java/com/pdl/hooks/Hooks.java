@@ -16,6 +16,7 @@ import com.pdl.utilities.Driver;
 
 
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
@@ -119,8 +120,9 @@ public class Hooks extends CommonMethods {
 
 	}
 
-	@After
-	public void tearDown(Scenario scenario) {
+	@AfterAll
+//	public void tearDown(Scenario scenario) {
+		public static void book_or_after_all() {
 		// taking a screenshot if the scenario fails
 		if (ConfigurationReader.getProperty("browser").equals("headless")) {
 

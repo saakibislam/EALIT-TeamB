@@ -1,19 +1,23 @@
-
 Feature: User Login
-  I want to use this template to Login a user.
+  I want to use this template to Login a user. 
+  
+  Background: Homepage to loginpage
+  Given User is in homepage
+  And User navigates to loginpage
+ 
 
+  @resetpassword
+  Scenario: User wants to reset password
+    Then User clicks on forgot password
+    And User types email
+    Then User clicks continue
+    And Verify link sent confirmation
+    
   @qafoxlogin
-  Scenario: User login from homepage
-    Given User is in homepage
-    And user clicked on Login button
-    When user redirected to login page
-    And user types credentials
-    Then verify user redirected to my account page
-
-#Examples:
-#|email|password|
-#|pbotterell0@hexun.com|iW9?c,A%'Ow8p+!|
-
+  Scenario: User successfull login
+    Then User types credentials
+    And Verify user redirected to my account page
+    
   #@tag2
   #Scenario Outline: Title of your scenario outline
     #Given I want to write a step with <name>

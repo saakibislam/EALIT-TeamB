@@ -2893,3 +2893,1359 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-06-29 21:23:16.629 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-06-29 21:23:16.638 [main] Hooks - CLosing the Driver
 [INFO ] 2024-06-29 21:23:16.765 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:01:24.266 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:01:24.269 [main] Hooks - Scenario Title: User login from homepage
+[INFO ] 2024-07-10 21:01:24.269 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:01:24.272 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:01:27.571 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:01:27.571 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:01:27.581 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:01:27.582 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:01:27.593 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:01:33.640 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:01:33.641 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:01:33.654 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 21:01:33.654 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 21:01:34.178 [main] QAfoxStepDefinitions - Navbar Login Button Clicked
+[INFO ] 2024-07-10 21:01:34.364 [main] QAfoxStepDefinitions - User Redirected to Login Page
+[INFO ] 2024-07-10 21:01:34.510 [main] SignInPage - Verifying Login Page
+[INFO ] 2024-07-10 21:01:34.510 [main] SftAssert - Login Page Verified
+[INFO ] 2024-07-10 21:01:36.532 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-10 21:01:38.665 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-10 21:01:38.751 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-10 21:01:44.430 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-10 21:01:49.588 [main] SftAssert - User Landed My Account Page Successfully
+[INFO ] 2024-07-10 21:01:49.750 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:01:49.876 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:01:49.876 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:01:49.878 [main] Hooks - User login from homepage Status - PASSED
+[INFO ] 2024-07-10 21:01:49.878 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:01:50.793 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:01:50.793 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:01:50.794 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:01:50.794 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:01:56.302 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:01:56.302 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:01:56.326 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:01:56.506 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:01:56.506 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:01:56.506 [main] Hooks - User wants to reset password Status - FAILED
+[INFO ] 2024-07-10 21:01:56.506 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:04:32.067 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:04:32.070 [main] StepNameListener - Executing step: User is in loginpage
+[INFO ] 2024-07-10 21:04:32.070 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:04:32.076 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:04:32.076 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 21:04:32.076 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:04:32.077 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:04:32.077 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 21:04:32.077 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:04:32.080 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:04:32.080 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 21:04:32.080 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:04:32.081 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:04:32.081 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 21:04:32.081 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:05:00.131 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:05:00.134 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:05:00.134 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:05:00.139 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:05:03.257 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:05:03.257 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:05:03.267 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:05:03.267 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:05:03.277 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:05:03.281 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:05:03.282 [main] StepNameListener - Executing step: User is in loginpage
+[INFO ] 2024-07-10 21:05:03.282 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:05:03.455 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:05:03.455 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 21:05:03.455 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:05:03.587 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:05:03.587 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 21:05:03.587 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:05:03.719 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:05:03.719 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 21:05:03.719 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:05:03.843 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:05:03.844 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 21:05:03.844 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:05:03.976 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:05:04.158 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:05:04.159 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:05:04.160 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 21:05:04.160 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:12:26.050 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:12:26.054 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:12:26.054 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:12:26.061 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:12:37.702 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:12:37.702 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:12:37.712 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:12:37.712 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:12:37.723 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:12:37.727 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:12:37.727 [main] StepNameListener - Executing step: User is in loginpage
+[INFO ] 2024-07-10 21:12:37.727 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:12:37.899 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:12:37.899 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 21:12:37.899 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:12:39.463 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:12:39.463 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 21:12:39.463 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:12:39.730 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:12:39.730 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 21:12:39.730 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:12:40.915 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:12:40.915 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 21:12:40.915 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:12:44.066 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:12:44.248 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:12:44.249 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:12:44.250 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 21:12:44.251 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:13:18.511 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:13:21.600 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:13:21.600 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:13:21.610 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:13:21.611 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:13:21.622 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:13:21.628 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:13:21.629 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:13:21.629 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:13:21.632 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:13:21.632 [main] StepNameListener - Executing step: User is in loginpage
+[INFO ] 2024-07-10 21:13:21.632 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:13:21.792 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:13:21.792 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 21:13:21.792 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:13:42.007 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:13:42.007 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 21:13:42.007 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:13:42.010 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:13:42.010 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 21:13:42.010 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:13:42.011 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:13:42.011 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 21:13:42.011 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:13:42.022 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:13:43.149 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:13:43.150 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:13:43.152 [main] Hooks - User wants to reset password Status - FAILED
+[INFO ] 2024-07-10 21:13:43.152 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:14:03.410 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:14:03.413 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:14:03.413 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:14:03.418 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:14:11.003 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:14:11.003 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:14:11.022 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:14:11.022 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:14:11.042 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:14:11.047 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:14:11.047 [main] StepNameListener - Executing step: User is in loginpage
+[INFO ] 2024-07-10 21:14:11.047 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:14:21.205 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:14:21.207 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 21:14:21.207 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:14:21.769 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:14:21.769 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 21:14:21.769 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:14:22.062 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:14:22.062 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 21:14:22.063 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:14:23.242 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:14:23.242 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 21:14:23.242 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:14:26.391 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:14:26.571 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:14:26.572 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:14:26.573 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 21:14:26.573 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:24:12.861 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:24:12.864 [main] Hooks - Scenario Title: Title of your scenario
+[INFO ] 2024-07-10 21:24:12.864 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:24:12.866 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:24:16.290 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:24:16.290 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:24:16.299 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:24:16.300 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:24:16.309 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:24:16.310 [main] abc_SetpD - ************************-----------------------abc tag---------------------------******************************
+[INFO ] 2024-07-10 21:24:16.480 [main] abc_SetpD - ************************-----------------------ABC tag---------------------------******************************
+[INFO ] 2024-07-10 21:24:16.630 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:24:16.811 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:24:16.811 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:24:16.813 [main] Hooks - Title of your scenario Status - PASSED
+[INFO ] 2024-07-10 21:24:16.813 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:24:17.656 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:24:17.656 [main] Hooks - Scenario Title: Title of your scenario2
+[INFO ] 2024-07-10 21:24:17.656 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:24:17.656 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:24:21.051 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:24:21.051 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:24:21.080 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:24:21.260 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:24:21.260 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:24:21.260 [main] Hooks - Title of your scenario2 Status - FAILED
+[INFO ] 2024-07-10 21:24:21.260 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:24:22.129 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:24:22.129 [main] Hooks - Scenario Title: Title of your scenario3
+[INFO ] 2024-07-10 21:24:22.129 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:24:22.129 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:24:28.663 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:24:28.664 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:24:28.684 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:24:28.807 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:24:28.807 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:24:28.807 [main] Hooks - Title of your scenario3 Status - FAILED
+[INFO ] 2024-07-10 21:24:28.807 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:32:06.441 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:32:19.169 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:32:19.169 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:32:19.179 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:32:19.180 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:32:19.192 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:32:19.194 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:32:19.194 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 21:32:19.195 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:32:25.240 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:32:25.241 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:32:25.253 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 21:32:25.253 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 21:32:25.535 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:32:25.717 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:32:25.717 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:32:25.719 [main] Hooks - User successfull login Status - UNDEFINED
+[INFO ] 2024-07-10 21:32:25.720 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:32:26.550 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:32:34.935 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:32:34.935 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:32:34.942 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:32:34.942 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:32:34.942 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:32:34.960 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:32:35.172 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:32:35.172 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:32:35.172 [main] Hooks - User wants to reset password Status - FAILED
+[INFO ] 2024-07-10 21:32:35.172 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:13.725 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:37:13.727 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 21:37:13.727 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:37:13.733 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:37:16.812 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:37:16.812 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:37:16.821 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:37:16.821 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:37:16.834 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:37:16.840 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:37:16.841 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 21:37:16.841 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:22.895 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:37:22.895 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:37:22.905 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 21:37:22.906 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 21:37:23.079 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:37:23.079 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 21:37:23.079 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:23.208 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:37:23.208 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 21:37:23.208 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:23.211 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:37:23.212 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 21:37:23.212 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:23.224 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:37:23.412 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:37:23.414 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:23.416 [main] Hooks - User successfull login Status - UNDEFINED
+[INFO ] 2024-07-10 21:37:23.416 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:24.324 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:37:24.324 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:37:24.324 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:37:24.325 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:37:29.531 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:37:29.532 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:37:29.541 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:37:29.541 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 21:37:29.541 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:29.545 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:37:29.545 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 21:37:29.546 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:29.547 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:37:29.547 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 21:37:29.547 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:29.548 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:37:29.548 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 21:37:29.548 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:29.549 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:37:29.549 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 21:37:29.549 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:29.550 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:37:29.550 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 21:37:29.550 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:29.569 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:37:29.755 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:37:29.756 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:37:29.756 [main] Hooks - User wants to reset password Status - FAILED
+[INFO ] 2024-07-10 21:37:29.757 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:03.419 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:38:03.422 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 21:38:03.422 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:03.428 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:38:03.428 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 21:38:03.428 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:03.432 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:38:03.432 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 21:38:03.432 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:03.434 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:38:03.434 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 21:38:03.435 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:03.452 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:38:03.452 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 21:38:03.452 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:03.461 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:38:03.461 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 21:38:03.461 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:03.463 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:38:03.465 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 21:38:03.465 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:03.466 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:38:03.466 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 21:38:03.466 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:03.467 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:38:03.467 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 21:38:03.467 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:03.468 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:38:03.468 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 21:38:03.468 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:21.693 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:38:21.696 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 21:38:21.697 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:38:21.699 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:38:25.116 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:38:25.116 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:38:25.125 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:38:25.125 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:38:25.135 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:38:31.198 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:38:31.198 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:38:31.208 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 21:38:31.208 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 21:38:31.586 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:38:31.775 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:38:31.775 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:31.776 [main] Hooks - User successfull login Status - UNDEFINED
+[INFO ] 2024-07-10 21:38:31.776 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:32.595 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:38:32.596 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:38:32.596 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:38:32.596 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:38:36.833 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:38:36.833 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:38:36.862 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:38:37.047 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:38:37.048 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:38:37.048 [main] Hooks - User wants to reset password Status - FAILED
+[INFO ] 2024-07-10 21:38:37.048 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:40:10.401 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:40:10.404 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 21:40:10.404 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:40:10.408 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:40:14.117 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:40:14.117 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:40:14.126 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:40:14.126 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:40:14.136 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:40:14.347 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:40:14.467 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:40:14.467 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:40:14.468 [main] Hooks - User successfull login Status - UNDEFINED
+[INFO ] 2024-07-10 21:40:14.468 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:40:15.365 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:40:15.365 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:40:15.365 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:40:15.365 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:40:18.469 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:40:18.469 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:40:18.494 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:40:18.676 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:40:18.676 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:40:18.676 [main] Hooks - User wants to reset password Status - FAILED
+[INFO ] 2024-07-10 21:40:18.676 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:41:32.793 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:41:35.841 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:41:35.841 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:41:35.851 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:41:35.852 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:41:35.865 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:41:35.867 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:41:35.867 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 21:41:35.867 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:41:36.041 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:41:36.211 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:41:36.211 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:41:36.212 [main] Hooks - User successfull login Status - UNDEFINED
+[INFO ] 2024-07-10 21:41:36.213 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:41:37.095 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:41:42.049 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:41:42.049 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:41:42.058 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:41:42.058 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:41:42.058 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:41:42.083 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:41:42.276 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:41:42.276 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:41:42.277 [main] Hooks - User wants to reset password Status - FAILED
+[INFO ] 2024-07-10 21:41:42.277 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:27.440 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:52:27.442 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 21:52:27.442 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:52:27.447 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:52:30.901 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:52:30.901 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:52:30.909 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:52:30.909 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:52:30.923 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:52:30.926 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:52:30.926 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 21:52:30.927 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:31.095 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:52:31.095 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 21:52:31.095 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:31.242 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:52:31.243 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 21:52:31.243 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:31.371 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:52:31.371 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 21:52:31.371 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:31.487 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:52:31.708 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:52:31.709 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:31.711 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-10 21:52:31.711 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:32.639 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:52:32.639 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:52:32.639 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:52:32.640 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:52:49.931 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:52:49.932 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:52:49.942 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:52:49.943 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 21:52:49.943 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:49.946 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:52:49.946 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 21:52:49.946 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:49.948 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:52:49.948 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 21:52:49.948 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:49.948 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:52:49.948 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 21:52:49.949 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:49.950 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:52:49.950 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 21:52:49.950 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:49.951 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:52:49.951 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 21:52:49.951 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:49.970 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:52:50.096 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:52:50.097 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:52:50.097 [main] Hooks - User wants to reset password Status - FAILED
+[INFO ] 2024-07-10 21:52:50.097 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:47.222 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:55:47.224 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 21:55:47.224 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:55:47.230 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:55:53.308 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:55:53.310 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:55:53.322 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:55:53.323 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:55:53.334 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:55:53.340 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:55:53.340 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 21:55:53.340 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:53.525 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:55:53.525 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 21:55:53.525 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:53.670 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:55:53.670 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 21:55:53.670 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:53.805 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:55:53.806 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 21:55:53.806 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:53.943 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:53.945 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-10 21:55:53.945 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:53.959 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:55:53.959 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:55:53.959 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:55:53.960 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:55:54.398 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:55:54.398 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:55:54.404 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:55:54.404 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:55:54.414 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:55:54.416 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:55:54.416 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 21:55:54.416 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:54.569 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:55:54.569 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 21:55:54.569 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:54.711 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:55:54.711 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 21:55:54.711 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:54.853 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:55:54.853 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 21:55:54.853 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:54.988 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:55:54.988 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 21:55:54.988 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:55.116 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:55:55.116 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 21:55:55.116 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:55.238 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:55.238 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 21:55:55.238 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:55:55.249 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 21:55:55.444 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 21:59:30.031 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:59:30.034 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 21:59:30.034 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:59:30.039 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:59:32.755 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:59:32.755 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:59:32.765 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:59:32.765 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:59:32.777 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:59:32.781 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:59:32.781 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 21:59:32.782 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:59:38.830 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:59:38.830 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:59:38.840 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 21:59:38.841 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 21:59:38.995 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:59:38.996 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 21:59:38.996 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:59:39.376 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 21:59:39.545 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:59:39.545 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 21:59:39.546 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:59:39.557 [main] SignInPage - Verifying Login Page
+[INFO ] 2024-07-10 21:59:39.557 [main] SftAssert - Login Page Verified
+[INFO ] 2024-07-10 21:59:41.587 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-10 21:59:43.765 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-10 21:59:43.881 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-10 21:59:47.670 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-10 21:59:47.803 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:59:47.803 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 21:59:47.803 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 21:59:52.814 [main] SftAssert - User Landed My Account Page Successfully
+[INFO ] 2024-07-10 21:59:52.914 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:59:52.915 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-10 21:59:52.916 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 21:59:52.928 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 21:59:52.928 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 21:59:52.928 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 21:59:52.929 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 21:59:54.487 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 21:59:54.488 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 21:59:54.498 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 21:59:54.498 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 21:59:54.514 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 21:59:54.515 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 21:59:54.515 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 21:59:54.515 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:00:00.549 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:00:00.549 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:00:00.558 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:00:00.558 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:00:00.679 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:00:00.680 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:00:00.680 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:00:02.516 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:00:02.659 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:00:02.659 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:00:02.660 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:00:02.775 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:00:02.775 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:00:02.775 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:00:02.882 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:00:02.882 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:00:02.883 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:00:02.991 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:00:02.991 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:00:02.991 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:00:03.084 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:00:03.084 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:00:03.084 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:00:03.096 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:00:03.277 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:03:11.658 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:03:15.983 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:03:15.983 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:03:15.991 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:03:15.993 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:03:16.003 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:03:16.008 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:03:16.008 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 22:03:16.008 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:03:16.013 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:03:16.013 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:03:16.013 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:03:22.059 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:03:22.059 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:03:22.071 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:03:22.071 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:03:22.264 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:03:22.264 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:03:22.264 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:03:22.659 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:03:22.841 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:03:22.841 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 22:03:22.841 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:03:22.854 [main] SignInPage - Verifying Login Page
+[INFO ] 2024-07-10 22:03:22.854 [main] SftAssert - Login Page Verified
+[INFO ] 2024-07-10 22:03:24.884 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-10 22:03:27.061 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-10 22:03:27.180 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-10 22:03:31.212 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-10 22:03:31.337 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:03:31.337 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 22:03:31.337 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:03:36.344 [main] SftAssert - User Landed My Account Page Successfully
+[INFO ] 2024-07-10 22:03:36.444 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:03:36.446 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-10 22:03:36.446 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:03:36.455 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:03:36.635 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:03:58.120 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:03:58.124 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:03:58.124 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:03:58.129 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:04:03.863 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:04:03.864 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:04:03.875 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:04:03.875 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:04:03.888 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:04:03.892 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:04:03.892 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:04:03.892 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:04:09.935 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:04:09.935 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:04:09.946 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:04:09.947 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:04:10.128 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:04:10.128 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:04:10.129 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:04:10.524 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:04:10.709 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:04:10.709 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:04:10.709 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:04:13.038 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:04:13.038 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:04:13.038 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:04:13.355 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:04:13.356 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:04:13.356 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:04:14.855 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:04:14.855 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:04:14.855 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:04:18.008 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:04:18.009 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:04:18.009 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:04:18.020 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-10 22:04:18.041 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+[INFO ] 2024-07-10 22:04:18.154 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:04:51.787 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:04:51.790 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:04:51.790 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:04:51.795 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:04:55.075 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:04:55.075 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:04:55.084 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:04:55.085 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:04:55.096 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:04:55.100 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:04:55.100 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:04:55.100 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:05:01.142 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:05:01.142 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:05:01.153 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:05:01.153 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:05:01.309 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:05:01.310 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:05:01.310 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:05:01.807 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:05:01.959 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:05:01.959 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:05:01.960 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:05:02.524 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:05:02.524 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:05:02.524 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:05:02.832 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:05:02.832 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:05:02.832 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:05:04.043 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:05:04.044 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:05:04.044 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:05:07.215 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:05:07.216 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:05:07.216 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:05:07.227 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-10 22:05:07.249 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+[INFO ] 2024-07-10 22:05:07.420 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:07:42.311 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:07:42.314 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:07:42.314 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:07:42.319 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:07:56.890 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:07:56.890 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:07:56.900 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:07:56.900 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:07:56.912 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:07:56.916 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:07:56.916 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:07:56.916 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:08:02.963 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:08:02.963 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:08:02.975 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:08:02.976 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:08:03.153 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:08:03.153 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:08:03.153 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:08:03.543 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:08:03.717 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:08:03.717 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:08:03.718 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:08:04.320 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:08:04.320 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:08:04.320 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:08:04.636 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:08:04.636 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:08:04.636 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:08:05.871 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:08:05.871 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:08:05.871 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:08:10.904 [main] SftAssert - An email with a confirmation link has been sent your email address.
+[INFO ] 2024-07-10 22:08:11.014 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:08:11.015 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:08:11.015 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:08:11.027 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:08:11.206 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:13:41.928 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:13:41.931 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:13:41.931 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:13:41.937 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:13:47.817 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:13:47.818 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:13:47.828 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:13:47.828 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:13:47.840 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:13:47.844 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:13:47.845 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:13:47.845 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:13:53.892 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:13:53.892 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:13:53.904 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:13:53.904 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:13:54.080 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:13:54.081 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:13:54.081 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:13:54.505 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:13:54.726 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:13:54.726 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:13:54.726 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:13:55.286 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:13:55.286 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:13:55.286 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:13:55.596 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:13:55.596 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:13:55.596 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:13:57.181 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:13:57.182 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:13:57.182 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:14:02.223 [main] SftAssert - An email with a confirmation link has been sent your email address.
+[INFO ] 2024-07-10 22:14:02.318 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:14:02.319 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:14:02.319 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:14:02.330 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:14:03.436 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:17:53.484 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:17:53.487 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:17:53.487 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:17:53.492 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:17:58.191 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:17:58.191 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:17:58.201 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:17:58.201 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:17:58.214 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:17:58.218 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:17:58.218 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:17:58.218 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:18:04.266 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:18:04.266 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:18:04.277 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:18:04.277 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:18:04.452 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:18:04.452 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:18:04.452 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:18:04.872 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:18:05.071 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:18:05.071 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:18:05.071 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:18:06.150 [main] CommonMethods - User clicked on forgot password
+[INFO ] 2024-07-10 22:18:06.287 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:18:06.287 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:18:06.287 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:18:06.287 [main] CommonMethods - User typing email for reset link
+[INFO ] 2024-07-10 22:18:06.581 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:18:06.581 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:18:06.582 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:18:06.582 [main] CommonMethods - User clicked on continue button
+[INFO ] 2024-07-10 22:18:07.800 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:18:07.801 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:18:07.801 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:18:12.844 [main] SftAssert - An email with a confirmation link has been sent your email address.
+[INFO ] 2024-07-10 22:18:12.949 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:18:12.950 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:18:12.950 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:18:12.962 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:18:13.142 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:21:04.922 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:21:09.720 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:21:09.720 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:21:09.730 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:21:09.730 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:21:09.741 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:21:09.747 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:21:09.748 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:21:09.748 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:21:09.753 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:21:09.753 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:21:09.753 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:21:15.799 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:21:15.799 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:21:15.810 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:21:15.811 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:21:16.000 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:21:16.000 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:21:16.000 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:21:16.397 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:21:16.579 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:21:16.579 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:21:16.579 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:21:19.017 [main] CommonMethods - User clicked on forgot password
+[INFO ] 2024-07-10 22:21:19.157 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:21:19.157 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:21:19.157 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:21:19.159 [main] CommonMethods - User typing email for reset link
+[INFO ] 2024-07-10 22:21:19.454 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:21:19.454 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:21:19.454 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:21:19.454 [main] CommonMethods - User clicked on continue button
+[INFO ] 2024-07-10 22:21:20.670 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:21:20.670 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:21:20.670 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:21:25.705 [main] SftAssert - An email with a confirmation link has been sent your email address.
+[INFO ] 2024-07-10 22:21:25.800 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:21:25.802 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:21:25.802 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:21:25.813 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:21:25.960 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:21:54.297 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:21:54.300 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 22:21:54.300 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:21:54.305 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:22:03.151 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:22:03.151 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:22:03.160 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:22:03.160 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:22:03.171 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:22:03.175 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:22:03.175 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:22:03.175 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:22:09.219 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:22:09.220 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:22:09.232 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:22:09.233 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:22:09.408 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:22:09.409 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:22:09.409 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:22:09.799 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:22:09.988 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:22:09.989 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 22:22:09.989 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:22:10.002 [main] SignInPage - Verifying Login Page
+[INFO ] 2024-07-10 22:22:10.002 [main] SftAssert - Login Page Verified
+[INFO ] 2024-07-10 22:22:12.034 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-10 22:22:14.202 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-10 22:22:14.323 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-10 22:22:23.578 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-10 22:22:23.705 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:22:23.705 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 22:22:23.705 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:22:28.721 [main] SftAssert - User Landed My Account Page Successfully
+[INFO ] 2024-07-10 22:22:28.835 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:22:28.836 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-10 22:22:28.837 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:22:28.848 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:22:28.966 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:23:12.468 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:23:12.471 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 22:23:12.471 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:23:12.476 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:23:15.921 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:23:15.921 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:23:15.931 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:23:15.931 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:23:15.944 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:23:15.948 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:23:15.948 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:23:15.948 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:21.997 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:23:21.997 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:23:22.007 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:23:22.008 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:23:22.176 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:23:22.176 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:23:22.176 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:22.557 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:23:22.761 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:23:22.761 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 22:23:22.761 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:22.774 [main] SignInPage - Verifying Login Page
+[INFO ] 2024-07-10 22:23:22.775 [main] SftAssert - Login Page Verified
+[INFO ] 2024-07-10 22:23:24.799 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-10 22:23:26.987 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-10 22:23:27.110 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-10 22:23:31.106 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-10 22:23:31.221 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:23:31.221 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 22:23:31.221 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:36.235 [main] SftAssert - User Landed My Account Page Successfully
+[INFO ] 2024-07-10 22:23:36.336 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:36.337 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-10 22:23:36.337 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:36.349 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:23:36.350 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:23:36.350 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:23:36.350 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:23:37.356 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:23:37.356 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:23:37.372 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:23:37.372 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:23:37.383 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:23:37.383 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:23:37.384 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:23:37.384 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:43.416 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:23:43.416 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:23:43.425 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:23:43.425 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:23:43.546 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:23:43.547 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:23:43.547 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:45.243 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:23:45.374 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:23:45.375 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:23:45.375 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:47.789 [main] CommonMethods - User clicked on forgot password
+[INFO ] 2024-07-10 22:23:47.944 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:23:47.944 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:23:47.944 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:47.944 [main] CommonMethods - User typing email for reset link
+[INFO ] 2024-07-10 22:23:48.199 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:23:48.199 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:23:48.199 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:48.200 [main] CommonMethods - User clicked on continue button
+[INFO ] 2024-07-10 22:23:49.373 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:23:49.373 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:23:49.373 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:54.412 [main] SftAssert - An email with a confirmation link has been sent your email address.
+[INFO ] 2024-07-10 22:23:54.519 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:54.519 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:23:54.519 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:23:54.529 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:23:54.711 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:34:57.856 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:34:57.859 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:34:57.859 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:34:57.864 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:35:00.937 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:35:00.937 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:35:00.946 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:35:00.946 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:35:00.956 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:35:00.960 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:35:00.960 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:35:00.960 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:06.998 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:35:06.998 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:35:07.009 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:35:07.011 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:35:07.175 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:35:07.175 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:35:07.175 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:07.543 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:35:07.696 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:35:07.696 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:35:07.696 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:10.099 [main] CommonMethods - User clicked on forgot password
+[INFO ] 2024-07-10 22:35:10.265 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:35:10.266 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:35:10.266 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:10.266 [main] CommonMethods - User typing email for reset link
+[INFO ] 2024-07-10 22:35:10.601 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:35:10.601 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:35:10.601 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:10.602 [main] CommonMethods - User clicked on continue button
+[INFO ] 2024-07-10 22:35:11.777 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:35:11.777 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:35:11.777 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:16.814 [main] SftAssert - An email with a confirmation link has been sent your email address.
+[INFO ] 2024-07-10 22:35:16.915 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:16.916 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:35:16.916 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:16.929 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:35:16.929 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 22:35:16.929 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:35:16.931 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:35:18.802 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:35:18.802 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:35:18.818 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:35:18.818 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:35:18.831 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:35:18.832 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:35:18.832 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:35:18.832 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:24.856 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:35:24.856 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:35:24.864 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:35:24.866 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:35:24.986 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:35:24.986 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:35:24.986 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:26.843 [main] CommonMethods - User Redirected to Login Page
+[INFO ] 2024-07-10 22:35:26.983 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:35:26.983 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 22:35:26.984 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:26.994 [main] SignInPage - Verifying Login Page
+[INFO ] 2024-07-10 22:35:26.994 [main] SftAssert - Login Page Verified
+[INFO ] 2024-07-10 22:35:29.019 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-10 22:35:31.182 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-10 22:35:31.303 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-10 22:35:39.857 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-10 22:35:39.992 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:35:39.992 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 22:35:39.992 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:45.003 [main] SftAssert - User Landed My Account Page Successfully
+[INFO ] 2024-07-10 22:35:45.099 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:45.099 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-10 22:35:45.099 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:35:45.108 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:35:45.292 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:38:44.511 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:38:44.513 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:38:44.513 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:38:44.518 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:38:47.606 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:38:47.606 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:38:47.616 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:38:47.616 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:38:47.628 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:38:47.632 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:38:47.632 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:38:47.632 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:38:53.671 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:38:53.671 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:38:53.683 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:38:53.683 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:38:53.835 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:38:53.836 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:38:53.836 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:38:54.217 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-10 22:38:54.378 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:38:54.378 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:38:54.378 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:38:57.381 [main] QAfoxLoginWithBackground - User clicked on forgot password
+[INFO ] 2024-07-10 22:38:57.509 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:38:57.509 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:38:57.509 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:38:57.510 [main] QAfoxLoginWithBackground - User typing email for reset link
+[INFO ] 2024-07-10 22:38:57.803 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:38:57.803 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:38:57.803 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:38:57.803 [main] QAfoxLoginWithBackground - User clicked on continue button
+[INFO ] 2024-07-10 22:38:58.960 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:38:58.960 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:38:58.960 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:39:03.995 [main] SftAssert - An email with a confirmation link has been sent your email address.
+[INFO ] 2024-07-10 22:39:04.104 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:39:04.106 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:39:04.106 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:39:04.120 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:39:04.120 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 22:39:04.120 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:39:04.123 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:39:05.140 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:39:05.140 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:39:05.156 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:39:05.157 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:39:05.165 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:39:05.168 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:39:05.168 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:39:05.168 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:39:11.206 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:39:11.206 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:39:11.215 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:39:11.215 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:39:11.337 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:39:11.339 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:39:11.339 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:39:12.227 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-10 22:39:12.378 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:39:12.379 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 22:39:12.379 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:39:12.390 [main] SignInPage - Verifying Login Page
+[INFO ] 2024-07-10 22:39:12.391 [main] SftAssert - Login Page Verified
+[INFO ] 2024-07-10 22:39:14.419 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-10 22:39:16.588 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-10 22:39:16.716 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-10 22:39:20.459 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-10 22:39:20.589 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:39:20.589 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 22:39:20.589 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:39:25.606 [main] SftAssert - User Landed My Account Page Successfully
+[INFO ] 2024-07-10 22:39:25.718 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:39:25.718 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-10 22:39:25.718 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:39:25.732 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:39:25.925 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:46:23.054 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:46:23.058 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:46:23.058 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:46:23.063 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:46:27.386 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:46:27.387 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:46:27.395 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:46:27.395 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:46:27.406 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:46:27.410 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:46:27.410 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:46:27.410 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:46:33.449 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:46:33.450 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:46:33.462 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:46:33.463 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:46:33.620 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:46:33.620 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:46:33.620 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:46:34.022 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-10 22:46:34.250 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:46:34.250 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:46:34.250 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:46:36.670 [main] QAfoxLoginWithBackground - User clicked on forgot password
+[INFO ] 2024-07-10 22:46:36.809 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:46:36.809 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:46:36.809 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:46:36.809 [main] QAfoxLoginWithBackground - User typing email for reset link
+[INFO ] 2024-07-10 22:46:37.119 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:46:37.120 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:46:37.120 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:46:37.120 [main] QAfoxLoginWithBackground - User clicked on continue button
+[INFO ] 2024-07-10 22:46:38.297 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:46:38.298 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:46:38.298 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:46:43.332 [main] SftAssert - An email with a confirmation link has been sent your email address.
+[INFO ] 2024-07-10 22:46:43.451 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:46:43.453 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:46:43.453 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:46:43.466 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:46:43.467 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 22:46:43.467 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:46:43.469 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:46:44.428 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:46:44.428 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:46:44.439 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:46:44.439 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:46:44.449 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:46:44.450 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:46:44.450 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:46:44.450 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:46:50.484 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:46:50.485 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:46:50.494 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:46:50.494 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:46:50.623 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:46:50.623 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:46:50.623 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:46:52.043 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-10 22:46:52.205 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:46:52.206 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 22:46:52.206 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:46:52.219 [main] SignInPage - Verifying Login Page
+[INFO ] 2024-07-10 22:46:52.219 [main] SftAssert - Login Page Verified
+[INFO ] 2024-07-10 22:46:52.219 [main] QAfoxLoginWithBackground - User types credentials
+[INFO ] 2024-07-10 22:46:54.238 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-10 22:46:56.352 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-10 22:46:56.433 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-10 22:47:00.150 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-10 22:47:00.276 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:47:00.276 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 22:47:00.276 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:47:05.285 [main] SftAssert - User Landed My Account Page Successfully
+[INFO ] 2024-07-10 22:47:05.389 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:47:05.389 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-10 22:47:05.390 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:47:05.400 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:47:05.530 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:49:18.702 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:49:18.706 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:49:18.706 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:49:18.711 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:49:21.946 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:49:21.946 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:49:21.955 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:49:21.955 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:49:21.966 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:49:21.970 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:49:21.970 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:49:21.970 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:49:28.015 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:49:28.016 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:49:28.027 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:49:28.028 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:49:28.198 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:49:28.198 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:49:28.198 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:49:28.589 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-10 22:49:28.787 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:49:28.787 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:49:28.787 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:49:31.239 [main] QAfoxLoginWithBackground - User clicked on forgot password
+[INFO ] 2024-07-10 22:49:31.388 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:49:31.389 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:49:31.389 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:49:31.389 [main] QAfoxLoginWithBackground - User typing email for reset link
+[INFO ] 2024-07-10 22:49:31.695 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:49:31.695 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:49:31.695 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:49:31.695 [main] QAfoxLoginWithBackground - User clicked on continue button
+[INFO ] 2024-07-10 22:49:32.887 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:49:32.887 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:49:32.887 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:49:37.927 [main] SftAssert - An email with a confirmation link has been sent your email address.
+[INFO ] 2024-07-10 22:49:45.080 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:49:45.082 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:49:45.082 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:49:45.094 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:49:45.094 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-10 22:49:45.095 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:49:45.097 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:49:48.425 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:49:48.426 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:49:48.438 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:49:48.438 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:49:48.448 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:49:48.449 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:49:48.449 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:49:48.449 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:49:54.484 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:49:54.484 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:49:54.495 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:49:54.495 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:49:54.612 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:49:54.613 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:49:54.613 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:49:55.562 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-10 22:49:55.693 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:49:55.693 [main] StepNameListener - Executing step: User types credentials
+[INFO ] 2024-07-10 22:49:55.693 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:49:55.702 [main] SignInPage - Verifying Login Page
+[INFO ] 2024-07-10 22:49:55.703 [main] SftAssert - Login Page Verified
+[INFO ] 2024-07-10 22:49:55.703 [main] QAfoxLoginWithBackground - User types credentials
+[INFO ] 2024-07-10 22:49:57.723 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-10 22:49:59.892 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-10 22:50:00.017 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-10 22:50:03.708 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-10 22:50:03.835 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:50:03.835 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-10 22:50:03.835 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:50:08.850 [main] SftAssert - User Landed My Account Page Successfully
+[INFO ] 2024-07-10 22:50:08.948 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:50:08.948 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-10 22:50:08.948 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:50:08.958 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:50:09.141 [main] Hooks - Driver Closed
+[INFO ] 2024-07-10 22:51:19.319 [main] Hooks - ================================================================
+[INFO ] 2024-07-10 22:51:19.322 [main] Hooks - Scenario Title: User wants to reset password
+[INFO ] 2024-07-10 22:51:19.322 [main] Hooks - =================================================================
+[INFO ] 2024-07-10 22:51:19.328 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-10 22:51:24.087 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:51:24.088 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-10 22:51:24.100 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-10 22:51:24.100 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-10 22:51:24.113 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-10 22:51:24.118 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:51:24.118 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-10 22:51:24.118 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:51:30.170 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:51:30.170 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-10 22:51:30.181 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-10 22:51:30.181 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-10 22:51:30.339 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:51:30.339 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-10 22:51:30.339 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:51:30.716 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-10 22:51:30.919 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:51:30.919 [main] StepNameListener - Executing step: User clicks on forgot password
+[INFO ] 2024-07-10 22:51:30.919 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:51:33.335 [main] QAfoxLoginWithBackground - User clicked on forgot password
+[INFO ] 2024-07-10 22:51:33.464 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:51:33.465 [main] StepNameListener - Executing step: User types email
+[INFO ] 2024-07-10 22:51:33.465 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:51:33.465 [main] QAfoxLoginWithBackground - User typing email for reset link
+[INFO ] 2024-07-10 22:51:33.791 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:51:33.791 [main] StepNameListener - Executing step: User clicks continue
+[INFO ] 2024-07-10 22:51:33.791 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:51:33.791 [main] QAfoxLoginWithBackground - User clicked on continue button
+[INFO ] 2024-07-10 22:51:34.957 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-10 22:51:34.957 [main] StepNameListener - Executing step: Verify link sent confirmation
+[INFO ] 2024-07-10 22:51:34.957 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-10 22:51:39.992 [main] SftAssert - An email with a confirmation link has been sent your email address.
+[INFO ] 2024-07-10 22:51:40.099 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:51:40.100 [main] Hooks - User wants to reset password Status - PASSED
+[INFO ] 2024-07-10 22:51:40.101 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-10 22:51:40.111 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-10 22:51:40.290 [main] Hooks - Driver Closed
