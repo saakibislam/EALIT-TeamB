@@ -1399,3 +1399,58 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-06-09 13:30:55.908 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-06-09 13:30:55.910 [main] Hooks - running abc tag Status - PASSED
 [INFO ] 2024-06-09 13:30:55.910 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-12 19:28:05.540 [main] Hooks - ================================================================
+[INFO ] 2024-07-12 19:28:05.553 [main] Hooks - Scenario Title: running abc tag
+[INFO ] 2024-07-12 19:28:05.553 [main] Hooks - =================================================================
+[INFO ] 2024-07-12 19:28:05.568 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-12 19:28:10.597 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-12 19:28:10.597 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-12 19:28:10.624 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-12 19:28:10.625 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-12 19:28:10.661 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-12 19:28:10.674 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:28:10.674 [main] StepNameListener - Executing step: I want to write a step with precondition
+[INFO ] 2024-07-12 19:28:10.675 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:28:10.676 [main] abc_SetpD - ************************-----------------------abc tag---------------------------******************************
+[INFO ] 2024-07-12 19:28:11.422 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:28:11.422 [main] StepNameListener - Executing step: some other precondition
+[INFO ] 2024-07-12 19:28:11.422 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:28:11.422 [main] abc_SetpD - ************************-----------------------ABC tag---------------------------******************************
+[INFO ] 2024-07-12 19:28:11.736 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-12 19:28:12.559 [main] Hooks - Driver Closed
+[INFO ] 2024-07-12 19:28:12.563 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-12 19:28:12.565 [main] Hooks - running abc tag Status - PASSED
+[INFO ] 2024-07-12 19:28:12.565 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-12 19:30:19.256 [main] Hooks - ================================================================
+[INFO ] 2024-07-12 19:30:19.267 [main] Hooks - Scenario Title: Users Searching and adding product to cart.
+[INFO ] 2024-07-12 19:30:19.268 [main] Hooks - =================================================================
+[INFO ] 2024-07-12 19:30:19.285 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-12 19:30:24.303 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-12 19:30:24.304 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-12 19:30:24.349 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-12 19:30:24.349 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-12 19:30:24.384 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-12 19:30:24.416 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:30:24.416 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-12 19:30:24.417 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:30:54.915 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:30:54.915 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-12 19:30:54.915 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:30:55.291 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:30:55.291 [main] StepNameListener - Executing step: User types product on search bar
+[INFO ] 2024-07-12 19:30:55.291 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:30:58.668 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:30:58.668 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-12 19:30:58.668 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:31:00.302 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:31:00.303 [main] StepNameListener - Executing step: User clicks on add to cart
+[INFO ] 2024-07-12 19:31:00.303 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:31:05.880 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:31:05.881 [main] StepNameListener - Executing step: Successfull message verification
+[INFO ] 2024-07-12 19:31:05.883 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:31:15.965 [main] SftAssert - Success: You have added iPhone to your shopping cart! ×
+[INFO ] 2024-07-12 19:31:16.210 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-12 19:31:17.261 [main] Hooks - Driver Closed
+[INFO ] 2024-07-12 19:31:17.265 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-12 19:31:17.268 [main] Hooks - Users Searching and adding product to cart. Status - PASSED
+[INFO ] 2024-07-12 19:31:17.268 [main] Hooks - ------------------------------------------------------------------------------------------------------
