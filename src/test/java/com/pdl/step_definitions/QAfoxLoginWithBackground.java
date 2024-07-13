@@ -49,7 +49,7 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 //	Reset Password Step Definitions 
 	
 	@Then("User clicks on forgot password")
-	public void User_clicks_on_forgot_password() {
+	public void user_clicks_on_forgot_password() {
 		WebElement forgotPassLink = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/div[2]/a"));
 		click_BD(forgotPassLink);
 		logger.info("User clicked on forgot password");
@@ -57,7 +57,7 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 	}
 	
 	@And("User types email")
-	public void User_types_email() {
+	public void user_types_email() {
 		logger.info("User typing email for reset link");
 		WebElement emailField = driver.findElement(By.xpath("//*[@id=\"input-email\"]"));
 		emailField.clear();
@@ -65,15 +65,25 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 	}
 
 	@Then("User clicks continue")
-	public void User_clicks_continue() {
+	public void user_clicks_continue() {
 		logger.info("User clicked on continue button");
 		driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/div[2]/input")).click();
 	}
 	
 	@And("Verify link sent confirmation")
-	public void Verify_link_sent_confirmation() {
+	public void verify_link_sent_confirmation() {
 		waitFor(5);
 		String text = getElementText(driver.findElement(By.xpath("//*[@id=\"account-login\"]/div[1]")));
 		softAssert.softAssertTrue(text.toLowerCase().contains("has been sent your email address."), text, text);
+	}
+	
+	@Then("User types credentials {string} and {string}")
+	public void user_types_credentials_and(String email, String password) {
+		System.out.println(email);
+		System.out.println(password);
+	}
+	@And("User sees error message")
+	public void user_sees_error_message() {
+		
 	}
 }
