@@ -18,6 +18,11 @@ Feature: User Login
     Then User types credentials
     And Verify user redirected to my account page
     
+  @unsuccessful-login
+  Scenario Outline: User login with invalid credentials
+  Then User types credentials "<email>" and "<password>"
+  And User sees error message
+    
   #@tag2
   #Scenario Outline: Title of your scenario outline
     #Given I want to write a step with <name>
