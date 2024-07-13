@@ -5535,3 +5535,75 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-07-13 00:51:32.804 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-07-13 00:51:32.814 [main] Hooks - CLosing the Driver
 [INFO ] 2024-07-13 00:51:33.001 [main] Hooks - Driver Closed
+[INFO ] 2024-07-13 00:57:02.019 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:57:05.301 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:57:05.301 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:57:05.309 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:57:05.309 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:57:05.320 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:57:05.324 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:57:05.325 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-13 00:57:05.325 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:57:05.329 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:57:05.329 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:57:05.329 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:57:11.366 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:57:11.366 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:57:11.378 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:57:11.378 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:57:11.541 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:57:11.541 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:57:11.541 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:57:11.931 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:57:12.165 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:57:12.165 [main] StepNameListener - Executing step: User types credentials "userId" and "password"
+[INFO ] 2024-07-13 00:57:12.165 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:57:14.201 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:57:16.439 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:57:16.562 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:57:19.634 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:57:19.794 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:57:19.794 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-13 00:57:19.794 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:57:24.807 [main] SftAssert - My Account Page Verification Failed
+[INFO ] 2024-07-13 00:57:24.921 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:57:24.922 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-13 00:57:24.922 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:57:24.941 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-13 00:57:25.127 [main] Hooks - Driver Closed
+[INFO ] 2024-07-13 01:00:22.048 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 01:00:22.052 [main] Hooks - Scenario Title: User successfull login
+[INFO ] 2024-07-13 01:00:22.053 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 01:00:22.059 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 01:00:25.269 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 01:00:25.269 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 01:00:25.277 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 01:00:25.277 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 01:00:25.288 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 01:00:25.292 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 01:00:25.292 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 01:00:25.292 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 01:00:31.341 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 01:00:31.341 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 01:00:31.353 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 01:00:31.353 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 01:00:31.508 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 01:00:31.508 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 01:00:31.508 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 01:00:31.906 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 01:00:32.107 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 01:00:32.107 [main] StepNameListener - Executing step: User types credentials "userId" and "password"
+[INFO ] 2024-07-13 01:00:32.108 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 01:00:34.145 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 01:00:36.316 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 01:00:36.433 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 01:00:39.456 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 01:00:39.604 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 01:00:39.604 [main] StepNameListener - Executing step: Verify user redirected to my account page
+[INFO ] 2024-07-13 01:00:39.605 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 01:00:44.611 [main] SftAssert - My Account Page Verification Failed
+[INFO ] 2024-07-13 01:00:44.707 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 01:00:44.708 [main] Hooks - User successfull login Status - PASSED
+[INFO ] 2024-07-13 01:00:44.709 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 01:00:44.731 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-13 01:00:45.224 [main] Hooks - Driver Closed

@@ -51,6 +51,12 @@ import com.pdl.utilities.SftAssert;
 //			Assertion hardAssert = new Assertion();
 //			hardAssert.assertEquals(currentTitle, expectedTitle, "Login Page Verified.");
 			logger.info("Verifying Login Page");
-			softAssert.softAssertTrue(currentTitle.contains(expectedTitle), "Login Page Verified", "Login Page Doesn't Match");
+			try {
+				softAssert.softAssertTrue(currentTitle.contains(expectedTitle), "Login Page Verified", "Login Page Doesn't Match");				
+			} catch (Exception e) {
+				// TODO: handle exception
+				softAssert.handleAssertionFailure("Login Page Doesn't Match");
+				e.printStackTrace();
+			}
 		}
 }

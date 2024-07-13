@@ -60,8 +60,13 @@ public class HomePage extends CommonMethods{
 //		waitForElement(homepageLogo);
 		
 		logger.info(" Current Page Title: " + currentTitle);
-		
-		softAssert.softAssertTrue(currentURL.contains(expectedUrl), "User Landed on Homepage Successfully", "User Failed to land on Homepage");
+		try {
+			softAssert.softAssertTrue(currentURL.contains(expectedUrl), "User Landed on Homepage Successfully", "User Failed to land on Homepage");			
+		} catch (Exception e) {
+			// TODO: handle exception
+			softAssert.handleAssertionFailure("User Failed to land on Homepage");
+			e.printStackTrace();
+		}
 //		logger.info("Homepage Assertion Complete");
 //		softAssert.(currentURL.contains(ExpectedURL),"User Landed in Homepage -");
 //		softAssert.assertEquals(currentURL, ExpectedURL, "User is landed in homepage");

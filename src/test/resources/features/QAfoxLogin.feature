@@ -12,9 +12,9 @@ Feature: User Login
     Then User clicks continue
     And Verify link sent confirmation
 
-  @qafoxlogin
+  @successful-login @smoke
   Scenario: User successfull login
-    Then User types credentials
+    Then User types credentials "userId" and "password"
     And Verify user redirected to my account page
 
   @unsuccessful-login
@@ -25,8 +25,10 @@ Feature: User Login
     Examples: 
       | emailData    | passwordData    |
       | invalidEmail | password        |
-      | userId        | invalidPassword |
+      | userId       | invalidPassword |
       | invalidEmail | invalidPassword |
+ 
+ 
   #@tag2
   #Scenario Outline: Title of your scenario outline
     #Given I want to write a step with <name>
