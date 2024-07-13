@@ -6,6 +6,7 @@ import io.cucumber.java.en.Then;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import com.pdl.pages.HomePage;
 import com.pdl.pages.SignInPage;
@@ -84,8 +85,19 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 		SignInPage invalidLogin = new SignInPage();
 		invalidLogin.signIn(email, password);;
 	}
+	
 	@And("User sees error message")
 	public void user_sees_error_message() {
+		waitFor(3);
+		String message = driver.findElement(By.xpath("//*[@id=\"account-login\"]/div[1]")).getText().toLowerCase();
+		try {
+			softAssert.softAssertTrue(message.contains("Warning:".toLowerCase()), message, message);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			softAssert.handleAssertionFailure(message);
+			e.printStackTrace();
+		}
 		
 	}
 }

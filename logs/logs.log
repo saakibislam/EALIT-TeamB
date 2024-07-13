@@ -4605,3 +4605,933 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-07-13 00:07:29.387 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-07-13 00:07:29.398 [main] Hooks - CLosing the Driver
 [INFO ] 2024-07-13 00:07:29.576 [main] Hooks - Driver Closed
+[INFO ] 2024-07-13 00:11:37.479 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:11:37.482 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:11:37.482 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:11:37.488 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:11:42.173 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:11:42.173 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:11:42.183 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:11:42.183 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:11:42.195 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:11:42.199 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:11:42.199 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:11:42.199 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:11:48.249 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:11:48.249 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:11:48.260 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:11:48.261 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:11:48.417 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:11:48.417 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:11:48.417 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:11:48.807 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:11:48.998 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:11:48.998 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "password"
+[INFO ] 2024-07-13 00:11:48.999 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:11:51.031 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:11:53.231 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:11:53.353 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:11:56.793 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:11:56.952 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:11:56.952 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:11:56.953 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:11:59.972 [main] QAfoxLoginWithBackground - [[ChromeDriver: chrome on windows (3c56482e5a2453d26848aaf4ad40c311)] -> xpath: //*[@id="account-login"]/div[1]]
+[INFO ] 2024-07-13 00:12:00.079 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:00.081 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:12:00.081 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:00.095 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:12:00.095 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:12:00.096 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:12:00.096 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:12:00.514 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:12:00.514 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:12:00.523 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:12:00.523 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:12:00.538 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:12:00.539 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:12:00.539 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:12:00.539 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:06.572 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:12:06.572 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:12:06.581 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:12:06.581 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:12:06.708 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:12:06.709 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:12:06.709 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:08.607 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:12:08.761 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:12:08.761 [main] StepNameListener - Executing step: User types credentials "userId" and "invalidPassword"
+[INFO ] 2024-07-13 00:12:08.761 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:10.794 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:12:12.952 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:12:13.041 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:12:16.136 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:12:16.269 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:12:16.269 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:12:16.269 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:19.281 [main] QAfoxLoginWithBackground - [[ChromeDriver: chrome on windows (3c56482e5a2453d26848aaf4ad40c311)] -> xpath: //*[@id="account-login"]/div[1]]
+[INFO ] 2024-07-13 00:12:19.373 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:19.374 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:12:19.374 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:19.384 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:12:19.384 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:12:19.385 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:12:19.385 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:12:19.799 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:12:19.800 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:12:19.807 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:12:19.807 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:12:19.819 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:12:19.820 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:12:19.820 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:12:19.820 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:25.855 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:12:25.856 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:12:25.864 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:12:25.864 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:12:25.989 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:12:25.989 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:12:25.989 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:26.935 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:12:27.079 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:12:27.079 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "invalidPassword"
+[INFO ] 2024-07-13 00:12:27.079 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:29.105 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:12:31.277 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:12:31.366 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:12:34.755 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:12:34.906 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:12:34.906 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:12:34.906 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:37.924 [main] QAfoxLoginWithBackground - [[ChromeDriver: chrome on windows (3c56482e5a2453d26848aaf4ad40c311)] -> xpath: //*[@id="account-login"]/div[1]]
+[INFO ] 2024-07-13 00:12:38.019 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:38.020 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:12:38.020 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:12:38.033 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-13 00:12:38.167 [main] Hooks - Driver Closed
+[INFO ] 2024-07-13 00:14:13.076 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:14:16.067 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:14:16.068 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:14:16.077 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:14:16.077 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:14:16.088 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:14:16.093 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:14:16.093 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:14:16.093 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:14:16.096 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:14:16.096 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:14:16.096 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:22.149 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:14:22.149 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:14:22.160 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:14:22.162 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:14:22.336 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:14:22.336 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:14:22.336 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:22.721 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:14:22.915 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:14:22.915 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "password"
+[INFO ] 2024-07-13 00:14:22.915 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:24.942 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:14:27.140 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:14:27.260 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:14:30.352 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:14:30.505 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:14:30.505 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:14:30.505 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:33.532 [main] QAfoxLoginWithBackground - Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+[INFO ] 2024-07-13 00:14:33.643 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:33.645 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:14:33.645 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:33.659 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:14:34.058 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:14:34.058 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:14:34.066 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:14:34.066 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:14:34.078 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:14:34.079 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:14:34.079 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:14:34.079 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:14:34.080 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:14:34.080 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:14:34.080 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:40.114 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:14:40.114 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:14:40.123 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:14:40.123 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:14:40.258 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:14:40.259 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:14:40.259 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:41.185 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:14:41.330 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:14:41.330 [main] StepNameListener - Executing step: User types credentials "userId" and "invalidPassword"
+[INFO ] 2024-07-13 00:14:41.330 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:43.355 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:14:45.524 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:14:45.614 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:14:48.718 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:14:48.877 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:14:48.877 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:14:48.877 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:51.895 [main] QAfoxLoginWithBackground - Warning: No match for E-Mail Address and/or Password.
+[INFO ] 2024-07-13 00:14:51.998 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:51.999 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:14:51.999 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:52.013 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:14:52.424 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:14:52.425 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:14:52.433 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:14:52.433 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:14:52.448 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:14:52.449 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:14:52.449 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:14:52.449 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:14:52.449 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:14:52.449 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:14:52.449 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:58.473 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:14:58.473 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:14:58.482 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:14:58.482 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:14:58.605 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:14:58.605 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:14:58.605 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:14:59.540 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:14:59.679 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:14:59.679 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "invalidPassword"
+[INFO ] 2024-07-13 00:14:59.679 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:15:01.700 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:15:03.869 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:15:03.959 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:15:06.983 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:15:07.110 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:15:07.111 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:15:07.111 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:15:10.141 [main] QAfoxLoginWithBackground - Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+[INFO ] 2024-07-13 00:15:10.242 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:15:10.243 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:15:10.243 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:15:10.252 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-13 00:15:10.378 [main] Hooks - Driver Closed
+[INFO ] 2024-07-13 00:17:42.318 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:17:42.322 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:17:42.322 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:17:42.328 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:17:45.468 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:17:45.469 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:17:45.478 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:17:45.478 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:17:45.488 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:17:45.491 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:17:45.491 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:17:45.491 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:17:51.532 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:17:51.532 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:17:51.544 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:17:51.545 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:17:51.696 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:17:51.696 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:17:51.696 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:17:52.096 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:17:52.275 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:17:52.275 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "password"
+[INFO ] 2024-07-13 00:17:52.275 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:17:54.312 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:17:56.505 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:17:56.623 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:17:59.635 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:17:59.774 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:17:59.774 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:17:59.774 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:02.893 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:02.894 [main] Hooks - User login with invalid credentials Status - FAILED
+[INFO ] 2024-07-13 00:18:02.894 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:02.911 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:18:02.911 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:18:02.911 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:18:02.912 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:18:03.321 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:18:03.321 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:18:03.328 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:18:03.330 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:18:03.350 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:18:03.351 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:18:03.351 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:18:03.351 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:09.379 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:18:09.379 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:18:09.387 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:18:09.387 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:18:09.537 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:18:09.537 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:18:09.537 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:10.499 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:18:10.684 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:18:10.684 [main] StepNameListener - Executing step: User types credentials "userId" and "invalidPassword"
+[INFO ] 2024-07-13 00:18:10.684 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:12.710 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:18:14.810 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:18:14.878 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:18:17.864 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:18:18.030 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:18:18.031 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:18:18.031 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:21.143 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:21.143 [main] Hooks - User login with invalid credentials Status - FAILED
+[INFO ] 2024-07-13 00:18:21.143 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:21.153 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:18:21.153 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:18:21.153 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:18:21.154 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:18:21.593 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:18:21.593 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:18:21.603 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:18:21.603 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:18:21.612 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:18:21.614 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:18:21.614 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:18:21.614 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:27.644 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:18:27.645 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:18:27.654 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:18:27.654 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:18:27.781 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:18:27.781 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:18:27.781 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:28.698 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:18:28.913 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:18:28.914 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "invalidPassword"
+[INFO ] 2024-07-13 00:18:28.914 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:30.942 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:18:33.041 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:18:33.113 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:18:37.053 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:18:37.179 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:18:37.179 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:18:37.179 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:40.296 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:40.296 [main] Hooks - User login with invalid credentials Status - FAILED
+[INFO ] 2024-07-13 00:18:40.296 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:18:40.307 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-13 00:18:40.484 [main] Hooks - Driver Closed
+[INFO ] 2024-07-13 00:19:00.795 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:19:00.798 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:19:00.798 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:19:00.803 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:19:04.181 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:19:04.182 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:19:04.191 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:19:04.192 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:19:04.202 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:19:04.205 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:04.205 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:19:04.205 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:10.255 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:19:10.255 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:19:10.266 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:19:10.267 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:19:10.422 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:10.422 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:19:10.422 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:10.815 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:19:11.017 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:11.017 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "password"
+[INFO ] 2024-07-13 00:19:11.017 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:13.045 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:19:15.227 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:19:15.345 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:19:18.327 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:19:18.479 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:18.480 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:19:18.480 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:21.601 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:21.604 [main] Hooks - User login with invalid credentials Status - FAILED
+[INFO ] 2024-07-13 00:19:21.604 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:21.624 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:19:21.625 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:19:21.625 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:19:21.626 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:19:22.086 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:19:22.087 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:19:22.109 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:19:22.109 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:19:22.121 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:19:22.123 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:22.123 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:19:22.123 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:28.160 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:19:28.161 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:19:28.170 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:19:28.170 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:19:28.291 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:28.291 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:19:28.291 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:29.210 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:19:29.348 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:29.349 [main] StepNameListener - Executing step: User types credentials "userId" and "invalidPassword"
+[INFO ] 2024-07-13 00:19:29.349 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:31.367 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:19:33.522 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:19:33.615 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:19:37.543 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:19:37.718 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:37.718 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:19:37.718 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:40.830 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:40.830 [main] Hooks - User login with invalid credentials Status - FAILED
+[INFO ] 2024-07-13 00:19:40.830 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:40.841 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:19:40.841 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:19:40.841 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:19:40.842 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:19:41.248 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:19:41.248 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:19:41.254 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:19:41.254 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:19:41.277 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:19:41.278 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:41.278 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:19:41.278 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:47.313 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:19:47.313 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:19:47.322 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:19:47.323 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:19:47.445 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:47.445 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:19:47.445 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:48.381 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:19:48.526 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:48.526 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "invalidPassword"
+[INFO ] 2024-07-13 00:19:48.526 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:50.554 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:19:52.729 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:19:52.821 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:19:55.786 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:19:55.920 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:19:55.920 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:19:55.920 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:59.036 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:59.036 [main] Hooks - User login with invalid credentials Status - FAILED
+[INFO ] 2024-07-13 00:19:59.036 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:19:59.049 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-13 00:19:59.229 [main] Hooks - Driver Closed
+[INFO ] 2024-07-13 00:40:55.412 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:40:55.415 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:40:55.415 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:40:55.420 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:41:00.269 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:41:00.269 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:41:00.280 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:41:00.280 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:41:00.292 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:41:00.296 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:00.296 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:41:00.296 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:06.346 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:41:06.346 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:41:06.358 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:41:06.358 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:41:06.530 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:06.531 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:41:06.531 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:06.928 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:41:07.113 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:07.113 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "password"
+[INFO ] 2024-07-13 00:41:07.113 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:09.148 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:41:11.328 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:41:11.448 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:41:14.512 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:41:14.659 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:14.659 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:41:14.659 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:17.695 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:41:17.808 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:17.809 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:41:17.810 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:17.831 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:41:17.831 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:41:17.831 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:41:17.832 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:41:18.231 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:41:18.231 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:41:18.238 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:41:18.239 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:41:18.250 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:41:18.252 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:18.253 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:41:18.253 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:24.281 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:41:24.281 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:41:24.290 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:41:24.290 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:41:24.413 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:24.413 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:41:24.413 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:25.396 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:41:25.555 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:25.555 [main] StepNameListener - Executing step: User types credentials "userId" and "invalidPassword"
+[INFO ] 2024-07-13 00:41:25.555 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:27.586 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:41:29.737 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:41:29.833 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:41:32.858 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:41:33.008 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:33.009 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:41:33.009 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:36.032 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:41:36.132 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:36.132 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:41:36.132 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:36.144 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:41:36.145 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:41:36.145 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:41:36.145 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:41:36.538 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:41:36.538 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:41:36.548 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:41:36.548 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:41:36.560 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:41:36.561 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:36.561 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:41:36.561 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:42.595 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:41:42.595 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:41:42.604 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:41:42.604 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:41:42.725 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:42.725 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:41:42.725 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:43.681 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:41:43.815 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:43.815 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "invalidPassword"
+[INFO ] 2024-07-13 00:41:43.815 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:45.848 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:41:48.004 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:41:48.094 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:41:51.072 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:41:51.231 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:41:51.231 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:41:51.231 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:54.257 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:41:54.360 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:54.360 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:41:54.360 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:41:54.370 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-13 00:41:54.552 [main] Hooks - Driver Closed
+[INFO ] 2024-07-13 00:43:08.992 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:43:08.995 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:43:08.996 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:43:09.001 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:43:12.326 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:43:12.326 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:43:12.335 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:43:12.335 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:43:12.347 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:43:12.351 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:43:12.351 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:43:12.351 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:18.396 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:43:18.397 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:43:18.408 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:43:18.409 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:43:18.562 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:43:18.562 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:43:18.563 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:18.947 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:43:19.118 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:43:19.118 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "password"
+[INFO ] 2024-07-13 00:43:19.118 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:21.145 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:43:23.334 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:43:23.452 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:43:26.537 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:43:26.695 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:43:26.695 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:43:26.695 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:29.725 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:43:29.843 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:29.844 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:43:29.844 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:29.865 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:43:29.865 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:43:29.865 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:43:29.867 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:43:30.280 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:43:30.280 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:43:30.287 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:43:30.287 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:43:30.305 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:43:30.306 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:43:30.307 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:43:30.307 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:36.345 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:43:36.345 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:43:36.354 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:43:36.355 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:43:36.478 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:43:36.478 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:43:36.478 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:37.413 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:43:37.549 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:43:37.550 [main] StepNameListener - Executing step: User types credentials "userId" and "invalidPassword"
+[INFO ] 2024-07-13 00:43:37.550 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:39.583 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:43:41.738 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:43:41.825 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:43:44.904 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:43:45.054 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:43:45.054 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:43:45.054 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:48.086 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:43:48.190 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:48.190 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:43:48.191 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:48.203 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:43:48.203 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:43:48.203 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:43:48.204 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:43:48.625 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:43:48.626 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:43:48.634 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:43:48.634 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:43:48.652 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:43:48.652 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:43:48.652 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:43:48.652 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:54.687 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:43:54.688 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:43:54.697 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:43:54.697 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:43:54.819 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:43:54.819 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:43:54.819 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:55.756 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:43:55.900 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:43:55.900 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "invalidPassword"
+[INFO ] 2024-07-13 00:43:55.900 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:43:57.918 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:44:00.086 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:44:00.177 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:44:03.189 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:44:03.346 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:44:03.346 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:44:03.346 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:44:06.374 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:44:06.481 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:44:06.481 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:44:06.481 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:44:06.493 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-13 00:44:06.686 [main] Hooks - Driver Closed
+[INFO ] 2024-07-13 00:45:52.472 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:45:52.475 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:45:52.475 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:45:52.480 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:45:55.826 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:45:55.826 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:45:55.834 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:45:55.835 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:45:55.846 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:45:55.849 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:45:55.849 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:45:55.849 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:01.894 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:46:01.894 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:46:01.905 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:46:01.906 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:46:02.057 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:46:02.058 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:46:02.058 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:02.478 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:46:02.674 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:46:02.674 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "password"
+[INFO ] 2024-07-13 00:46:02.674 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:04.713 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:46:06.897 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:46:07.019 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:46:10.043 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:46:10.191 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:46:10.191 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:46:10.191 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:13.219 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:46:13.329 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:13.331 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:46:13.331 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:13.350 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:46:13.351 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:46:13.351 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:46:13.351 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:46:13.761 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:46:13.761 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:46:13.767 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:46:13.767 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:46:13.779 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:46:13.779 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:46:13.779 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:46:13.779 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:19.812 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:46:19.813 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:46:19.823 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:46:19.823 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:46:19.944 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:46:19.944 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:46:19.944 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:20.884 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:46:21.023 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:46:21.023 [main] StepNameListener - Executing step: User types credentials "userId" and "invalidPassword"
+[INFO ] 2024-07-13 00:46:21.023 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:23.055 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:46:25.216 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:46:25.303 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:46:28.325 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:46:28.519 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:46:28.520 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:46:28.520 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:31.540 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:46:31.663 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:31.664 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:46:31.664 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:31.676 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:46:31.676 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:46:31.676 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:46:31.677 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:46:32.080 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:46:32.080 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:46:32.093 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:46:32.094 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:46:32.103 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:46:32.104 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:46:32.104 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:46:32.104 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:38.135 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:46:38.135 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:46:38.142 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:46:38.142 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:46:38.263 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:46:38.263 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:46:38.263 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:39.215 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:46:39.362 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:46:39.362 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "invalidPassword"
+[INFO ] 2024-07-13 00:46:39.362 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:41.391 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:46:43.490 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:46:43.560 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:46:46.608 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:46:46.789 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:46:46.789 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:46:46.789 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:49.819 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:46:49.926 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:49.926 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:46:49.926 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:46:49.937 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-13 00:46:50.116 [main] Hooks - Driver Closed
+[INFO ] 2024-07-13 00:48:20.433 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:48:20.435 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:48:20.435 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:48:20.440 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:48:23.295 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:48:23.295 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:48:23.303 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:48:23.304 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:48:23.314 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:48:23.317 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:48:23.318 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:48:23.318 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:29.372 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:48:29.373 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:48:29.383 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:48:29.384 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:48:29.524 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:48:29.524 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:48:29.524 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:29.918 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:48:30.082 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:48:30.082 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "password"
+[INFO ] 2024-07-13 00:48:30.082 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:32.115 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:48:34.300 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:48:34.425 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:48:37.503 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:48:37.637 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:48:37.637 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:48:37.637 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:40.665 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:48:40.784 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:40.786 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:48:40.786 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:40.799 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:48:40.799 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:48:40.799 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:48:40.800 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:48:41.211 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:48:41.211 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:48:41.218 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:48:41.218 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:48:41.230 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:48:41.231 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:48:41.232 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:48:41.232 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:47.259 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:48:47.259 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:48:47.268 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:48:47.269 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:48:47.388 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:48:47.388 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:48:47.388 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:48.293 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:48:48.428 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:48:48.429 [main] StepNameListener - Executing step: User types credentials "userId" and "invalidPassword"
+[INFO ] 2024-07-13 00:48:48.429 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:50.448 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:48:52.612 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:48:52.705 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:48:55.796 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:48:55.935 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:48:55.935 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:48:55.936 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:58.957 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:48:59.066 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:59.067 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:48:59.067 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:48:59.078 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:48:59.078 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:48:59.078 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:48:59.079 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:48:59.497 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:48:59.497 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:48:59.505 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:48:59.505 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:48:59.516 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:48:59.517 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:48:59.517 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:48:59.517 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:49:05.550 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:49:05.550 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:49:05.559 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:49:05.559 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:49:05.708 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:49:05.709 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:49:05.709 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:49:06.700 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:49:06.839 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:49:06.840 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "invalidPassword"
+[INFO ] 2024-07-13 00:49:06.840 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:49:08.866 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:49:11.041 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:49:11.130 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:49:14.185 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:49:14.304 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:49:14.304 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:49:14.304 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:49:17.336 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:49:17.442 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:49:17.442 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:49:17.442 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:49:17.452 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-13 00:49:17.633 [main] Hooks - Driver Closed
+[INFO ] 2024-07-13 00:50:33.942 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:50:33.945 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:50:33.945 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:50:33.949 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:50:38.436 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:50:38.437 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:50:38.445 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:50:38.445 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:50:38.454 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:50:38.457 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:50:38.457 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:50:38.458 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:50:44.505 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:50:44.505 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:50:44.517 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:50:44.518 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:50:44.704 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:50:44.705 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:50:44.705 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:50:45.090 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:50:45.245 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:50:45.245 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "password"
+[INFO ] 2024-07-13 00:50:45.245 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:50:47.275 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:50:49.468 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:50:49.586 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:50:52.694 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:50:52.827 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:50:52.827 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:50:52.827 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:50:55.858 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:50:55.972 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:50:55.973 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:50:55.973 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:50:55.988 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:50:55.988 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:50:55.988 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:50:55.989 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:50:56.389 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:50:56.389 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:50:56.397 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:50:56.397 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:50:56.409 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:50:56.410 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:50:56.410 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:50:56.410 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:02.435 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:51:02.435 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:51:02.445 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:51:02.445 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:51:02.568 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:51:02.568 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:51:02.568 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:03.473 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:51:03.614 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:51:03.614 [main] StepNameListener - Executing step: User types credentials "userId" and "invalidPassword"
+[INFO ] 2024-07-13 00:51:03.614 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:05.643 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:51:07.805 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:51:07.895 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:51:10.945 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:51:11.079 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:51:11.079 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:51:11.079 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:14.098 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:51:14.202 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:14.203 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:51:14.203 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:14.218 [main] Hooks - ================================================================
+[INFO ] 2024-07-13 00:51:14.218 [main] Hooks - Scenario Title: User login with invalid credentials
+[INFO ] 2024-07-13 00:51:14.218 [main] Hooks - =================================================================
+[INFO ] 2024-07-13 00:51:14.220 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-13 00:51:14.636 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:51:14.636 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-13 00:51:14.644 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-13 00:51:14.645 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-13 00:51:14.658 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-13 00:51:14.659 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:51:14.659 [main] StepNameListener - Executing step: User is in homepage
+[INFO ] 2024-07-13 00:51:14.659 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:20.690 [main] HomePage - Expected Title from properties file is = https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:51:20.691 [main] CommonMethods - waiting for URL to Contain: https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-13 00:51:20.699 [main] HomePage -  Current Page Title: Your Store
+[INFO ] 2024-07-13 00:51:20.699 [main] SftAssert - User Landed on Homepage Successfully
+[INFO ] 2024-07-13 00:51:20.823 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:51:20.823 [main] StepNameListener - Executing step: User navigates to loginpage
+[INFO ] 2024-07-13 00:51:20.823 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:21.779 [main] QAfoxLoginWithBackground - User Redirected to Login Page
+[INFO ] 2024-07-13 00:51:21.921 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:51:21.921 [main] StepNameListener - Executing step: User types credentials "invalidEmail" and "invalidPassword"
+[INFO ] 2024-07-13 00:51:21.921 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:23.944 [main] SignInPage - User Typing Email
+[INFO ] 2024-07-13 00:51:26.116 [main] SignInPage - User Typing Password
+[INFO ] 2024-07-13 00:51:26.202 [main] SignInPage - Credentials Typing Complete
+[INFO ] 2024-07-13 00:51:29.529 [main] SignInPage - User Clicked for Login
+[INFO ] 2024-07-13 00:51:29.686 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-13 00:51:29.686 [main] StepNameListener - Executing step: User sees error message
+[INFO ] 2024-07-13 00:51:29.686 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:32.704 [main] SftAssert - warning: your account has exceeded allowed number of login attempts. please try again in 1 hour.
+[INFO ] 2024-07-13 00:51:32.804 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:32.804 [main] Hooks - User login with invalid credentials Status - PASSED
+[INFO ] 2024-07-13 00:51:32.804 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-13 00:51:32.814 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-13 00:51:33.001 [main] Hooks - Driver Closed
