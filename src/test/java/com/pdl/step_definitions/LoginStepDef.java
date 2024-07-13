@@ -144,7 +144,7 @@ public class LoginStepDef extends CommonMethods  {
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("BusAnyst"));
 			}
 
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("BusAnystPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("BusAnystPassWord"));
 
 			break;
 		case "Contract Analyst":
@@ -156,7 +156,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("ContAnyst"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("ContAnystPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("ContAnystPassWord"));
 			break;
 		case "Data Entry Specialist":
 			try {
@@ -167,7 +167,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("DataSplist"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("DataSplistPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("DataSplistPassWord"));
 			break;
 
 		case "Operations Admin":
@@ -179,7 +179,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("OpsAdmin"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("OpsAdminPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("OpsAdminPassWord"));
 			break;
 
 		case "Rebate Analyst":
@@ -191,7 +191,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("RebAnyst"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("RebAnystPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("RebAnystPassWord"));
 			break;
 
 		case "Rebate Pharmacist":
@@ -203,7 +203,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("RebPhar"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("RebPharPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("RebPharPassWord"));
 			break;
 
 		case "Rebate Analyst - External":
@@ -215,7 +215,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("RebAnystExt"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("RebAnystExtPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("RebAnystExtPassWord"));
 			break;
 
 		case "Pharmacy Analyst - External":
@@ -227,7 +227,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("PharAnystExt"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("PharAnystExtPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("PharAnystExtPassWord"));
 			break;
 
 		case "Business Analyst - External":
@@ -239,7 +239,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("BusAnystExt"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("BusAnystExtPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("BusAnystExtPassWord"));
 			break;
 
 		case "Contracting - External":
@@ -251,7 +251,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("ContractingExt"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("ContractingExtPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("ContractingExtPassWord"));
 			break;
 
 		case "Medical Supply - External":
@@ -263,7 +263,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("MedSuppyExt"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("MedSuppyExtPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("MedSuppyExtPassWord"));
 			break;
 
 		case "Manufacturer- External-User1":
@@ -275,7 +275,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("Mfr1"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("Mfr1PassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("Mfr1PassWord"));
 			break;
 
 		case "Manufacturer- External-User2":
@@ -287,7 +287,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("Mfr2"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("Mfr2PassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("Mfr2PassWord"));
 			break;
 
 		case "Manufacturer- External-User3":
@@ -299,7 +299,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("Mfr3"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("Mfr3PassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("Mfr3PassWord"));
 			break;
 //	            default: 
 //	                     break;
@@ -312,7 +312,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("mrxmfruacone"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("mrxmfruaconePassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("mrxmfruaconePassWord"));
 			break;
 //	            default: 
 //	                     break;
@@ -325,7 +325,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("mfruactwo"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("mfruactwoPassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("mfruactwoPassWord"));
 			break;
 			
 		case "Manufacturer-UAC-User3":
@@ -337,7 +337,7 @@ public class LoginStepDef extends CommonMethods  {
 				// TODO Auto-generated catch block
 //				signInPage.username.sendKeys(ConfigurationReader.getProperty("mfruacthree"));
 			}
-			signInPage.password.sendKeys(ConfigurationReader.getProperty("mfruacthreePassWord"));
+			signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("mfruacthreePassWord"));
 			break;
 
 		}

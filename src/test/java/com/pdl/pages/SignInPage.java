@@ -23,22 +23,22 @@ import com.pdl.utilities.SftAssert;
 			PageFactory.initElements(Driver.getDriver(), this);
 		}
 		
-		@FindBy(id="input-email") public WebElement email;	
-		@FindBy(id="input-password") public WebElement password;
+		@FindBy(id="input-email") public WebElement emailField;	
+		@FindBy(id="input-password") public WebElement passwordField;
 		@FindBy(xpath = "//input[@value='Login']") public WebElement signInTab;
 		
 
 		
 		
-		public void signIn() {
-			drawborder(email);
+		public void signIn(String emailProperty, String passwordProperty) {
+			drawborder(emailField);
 			logger.info("User Typing Email");
-			email.clear();
-			email.sendKeys(ConfigurationReader.getProperty("userId"));
-			drawborder(password);
+			emailField.clear();
+			emailField.sendKeys(ConfigurationReader.getProperty(emailProperty));
+			drawborder(passwordField);
 			logger.info("User Typing Password");
-			password.clear();
-			password.sendKeys(ConfigurationReader.getProperty("password"));
+			passwordField.clear();
+			passwordField.sendKeys(ConfigurationReader.getProperty(passwordProperty));
 			logger.info("Credentials Typing Complete");  		
 			click_BD(signInTab);
 			logger.info("User Clicked for Login");

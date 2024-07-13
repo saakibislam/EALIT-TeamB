@@ -35,7 +35,7 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 		SignInPage loginPage = new SignInPage();
 		loginPage.verifyLoginPage();
 		logger.info("User types credentials");
-		loginPage.signIn();
+//		loginPage.signIn();
 	}
 
 	@And("Verify user redirected to my account page")
@@ -81,6 +81,8 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 	public void user_types_credentials_and(String email, String password) {
 		System.out.println(email);
 		System.out.println(password);
+		SignInPage invalidLogin = new SignInPage();
+		invalidLogin.signIn(email, password);;
 	}
 	@And("User sees error message")
 	public void user_sees_error_message() {

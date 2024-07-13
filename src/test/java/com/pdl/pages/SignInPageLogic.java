@@ -46,7 +46,7 @@ public class SignInPageLogic extends CommonMethods {
 //		signInPage.idpDiscoveryUsername.sendKeys(ConfigurationReader.getProperty("userId"));
 		//signInPage.idpDiscoverySubmit.click();
 		waitForPageToLoadfor(10);
-		signInPage.password.sendKeys(ConfigurationReader.getProperty("password"));
+		signInPage.passwordField.sendKeys(ConfigurationReader.getProperty("password"));
 		
 		hover(signInPage.signInTab);
 	signInPage.signInTab.click();
