@@ -19,11 +19,13 @@ Feature: User Login
 
   @unsuccessful-login
   Scenario Outline: User login with invalid credentials
-    Then User types credentials "<email>" and "<password>"
+    Then User types credentials "<emailData>" and "<passwordData>"
     And User sees error message
 
     Examples: 
-      | email        | password        |
+      | emailData    | passwordData    |
+      | invalidEmail | password        |
+      | userId        | invalidPassword |
       | invalidEmail | invalidPassword |
   #@tag2
   #Scenario Outline: Title of your scenario outline
