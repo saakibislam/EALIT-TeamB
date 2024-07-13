@@ -1,4 +1,9 @@
 package com.pdl.step_definitions;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import io.cucumber.java.en.Given;
@@ -7,6 +12,7 @@ import io.cucumber.java.en.Then;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import com.pdl.pages.HomePage;
+import com.pdl.pages.MyAccountPage;
 import com.pdl.pages.SignInPage;
 import com.pdl.utilities.CommonMethods;
 import com.pdl.utilities.ConfigurationReader;
@@ -16,6 +22,7 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 	public static Logger logger = LogManager.getLogger(QAfoxLoginWithBackground.class);
 	
 	//Common steps for all scenarios
+	
 	
 	@Given("User is in homepage")
 	public void user_is_in_homepage() {
@@ -40,10 +47,11 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 
 	@And("Verify user redirected to my account page")
 	public void verify_user_redirected_to_my_account_page() {
-		waitFor(5);
-		String currentPageTitle = driver.getTitle();
-		String ExpectedAccountPageTitle = ConfigurationReader.getProperty("AccountPageTitle");
-		softAssert.softAssertTrue(currentPageTitle.contains(ExpectedAccountPageTitle), "User Landed My Account Page Successfully", "My Account Page Verification Failed");
+		waitFor(3);
+		MyAccountPage accountPage = new MyAccountPage();
+		accountPage.verifyLandingOnMyAccountPage();
+		accountPage.verifyListOfOptions();
+		accountPage.userLogOut();
 	}
 	
 //	Reset Password Step Definitions 
