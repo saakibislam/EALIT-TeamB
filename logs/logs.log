@@ -1399,6 +1399,75 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-06-09 13:30:55.908 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-06-09 13:30:55.910 [main] Hooks - running abc tag Status - PASSED
 [INFO ] 2024-06-09 13:30:55.910 [main] Hooks - ------------------------------------------------------------------------------------------------------
+
+[INFO ] 2024-07-12 19:28:05.540 [main] Hooks - ================================================================
+[INFO ] 2024-07-12 19:28:05.553 [main] Hooks - Scenario Title: running abc tag
+[INFO ] 2024-07-12 19:28:05.553 [main] Hooks - =================================================================
+[INFO ] 2024-07-12 19:28:05.568 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-12 19:28:10.597 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-12 19:28:10.597 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-12 19:28:10.624 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-12 19:28:10.625 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-12 19:28:10.661 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-12 19:28:10.674 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:28:10.674 [main] StepNameListener - Executing step: I want to write a step with precondition
+[INFO ] 2024-07-12 19:28:10.675 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:28:10.676 [main] abc_SetpD - ************************-----------------------abc tag---------------------------******************************
+[INFO ] 2024-07-12 19:28:11.422 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:28:11.422 [main] StepNameListener - Executing step: some other precondition
+[INFO ] 2024-07-12 19:28:11.422 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:28:11.422 [main] abc_SetpD - ************************-----------------------ABC tag---------------------------******************************
+[INFO ] 2024-07-12 19:28:11.736 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-12 19:28:12.559 [main] Hooks - Driver Closed
+[INFO ] 2024-07-12 19:28:12.563 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-12 19:28:12.565 [main] Hooks - running abc tag Status - PASSED
+[INFO ] 2024-07-12 19:28:12.565 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-12 19:30:19.256 [main] Hooks - ================================================================
+[INFO ] 2024-07-12 19:30:19.267 [main] Hooks - Scenario Title: Users Searching and adding product to cart.
+[INFO ] 2024-07-12 19:30:19.268 [main] Hooks - =================================================================
+[INFO ] 2024-07-12 19:30:19.285 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-12 19:30:24.303 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-12 19:30:24.304 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-12 19:30:24.349 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-12 19:30:24.349 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-12 19:30:24.384 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-12 19:30:24.416 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:30:24.416 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-12 19:30:24.417 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:30:54.915 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:30:54.915 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-12 19:30:54.915 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:30:55.291 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:30:55.291 [main] StepNameListener - Executing step: User types product on search bar
+[INFO ] 2024-07-12 19:30:55.291 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:30:58.668 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:30:58.668 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-12 19:30:58.668 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:31:00.302 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:31:00.303 [main] StepNameListener - Executing step: User clicks on add to cart
+[INFO ] 2024-07-12 19:31:00.303 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:31:05.880 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-12 19:31:05.881 [main] StepNameListener - Executing step: Successfull message verification
+[INFO ] 2024-07-12 19:31:05.883 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-12 19:31:15.965 [main] SftAssert - Success: You have added iPhone to your shopping cart! �
+[INFO ] 2024-07-12 19:31:16.210 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-12 19:31:17.261 [main] Hooks - Driver Closed
+[INFO ] 2024-07-12 19:31:17.265 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-12 19:31:17.268 [main] Hooks - Users Searching and adding product to cart. Status - PASSED
+[INFO ] 2024-07-12 19:31:17.268 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:37:55.626 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 11:38:00.633 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 11:38:00.633 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 11:38:00.649 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 11:38:00.649 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 11:38:00.669 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 11:38:00.673 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 11:38:00.674 [main] Hooks - Scenario Title: Users Searching and adding product to cart.
+[INFO ] 2024-07-16 11:38:00.674 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 11:38:51.636 [main] SftAssert - Success: You have added iPhone to your shopping cart! �
+[INFO ] 2024-07-16 11:38:51.875 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-16 11:38:52.340 [AsyncHttpClient-1-4] WebSocketHandler - onError
+
 [INFO ] 2024-06-29 16:48:22.744 [main] Hooks - ================================================================
 [INFO ] 2024-06-29 16:48:22.747 [main] Hooks - Scenario Title: User login from homepage
 [INFO ] 2024-06-29 16:48:22.747 [main] Hooks - =================================================================
@@ -2706,6 +2775,7 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-06-29 21:05:11.762 [main] SftAssert - User Landed My Account Page Successfully
 [INFO ] 2024-06-29 21:05:11.869 [main] Hooks - CLosing the Driver
 [WARN ] 2024-06-29 21:05:11.886 [AsyncHttpClient-1-4] WebSocketHandler - onError
+
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
@@ -2720,6 +2790,38 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-16 11:38:52.551 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 11:38:52.551 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:38:52.553 [main] Hooks - Users Searching and adding product to cart. Status - PASSED
+[INFO ] 2024-07-16 11:38:52.554 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:38:54.305 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 11:38:59.174 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 11:38:59.175 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 11:38:59.194 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 11:38:59.194 [main] Hooks - Scenario Title: : User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 11:38:59.194 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 11:38:59.253 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-16 11:38:59.779 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 11:38:59.780 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:38:59.781 [main] Hooks - : User searches and adds multiple products to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-16 11:38:59.781 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:46:16.586 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 11:46:21.416 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 11:46:21.417 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 11:46:21.436 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 11:46:21.437 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 11:46:21.465 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 11:46:21.471 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 11:46:21.472 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 11:46:21.472 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 11:46:21.812 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:46:21.813 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - UNDEFINED
+[INFO ] 2024-07-16 11:46:21.814 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:46:21.837 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-16 11:46:22.134 [AsyncHttpClient-1-4] WebSocketHandler - onError
+
 	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
 [INFO ] 2024-06-29 21:05:12.052 [main] Hooks - Driver Closed
 [INFO ] 2024-06-29 21:05:12.053 [main] Hooks - ------------------------------------------------------------------------------------------------------
@@ -3556,6 +3658,7 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-07-10 22:04:18.009 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-07-10 22:04:18.020 [main] Hooks - CLosing the Driver
 [WARN ] 2024-07-10 22:04:18.041 [AsyncHttpClient-1-4] WebSocketHandler - onError
+
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
@@ -3570,6 +3673,139 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-16 11:46:22.288 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 11:46:38.811 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 11:46:43.727 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 11:46:43.727 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 11:46:43.745 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 11:46:43.746 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 11:46:43.767 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 11:46:43.773 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 11:46:43.773 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 11:46:43.773 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 11:46:44.210 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-16 11:46:44.692 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 11:46:44.694 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:46:44.697 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - UNDEFINED
+[INFO ] 2024-07-16 11:46:44.698 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:50:27.401 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 11:50:32.289 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 11:50:32.290 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 11:50:32.307 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 11:50:32.307 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 11:50:32.331 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 11:50:32.336 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 11:50:32.337 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 11:50:32.337 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 11:50:32.741 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-16 11:50:33.442 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 11:50:33.443 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:50:33.447 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - UNDEFINED
+[INFO ] 2024-07-16 11:50:33.449 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:58:00.460 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 11:58:00.468 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 11:58:00.468 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 11:58:00.477 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 11:58:05.277 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 11:58:05.277 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 11:58:05.294 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 11:58:05.294 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 11:58:05.313 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 11:58:36.150 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:58:36.153 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - UNDEFINED
+[INFO ] 2024-07-16 11:58:36.153 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 11:58:36.177 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-16 11:58:36.738 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 12:11:40.048 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 12:11:40.056 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 12:11:40.056 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 12:11:40.070 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 12:11:44.895 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 12:11:44.896 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 12:11:44.922 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 12:11:44.923 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 12:11:44.950 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 12:11:44.960 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:11:44.961 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-16 12:11:44.961 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:15.365 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:15.366 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-16 12:12:15.366 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:15.642 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:15.642 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-16 12:12:15.642 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:16.030 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:16.030 [main] StepNameListener - Executing step: the user searches for "Phone"
+[INFO ] 2024-07-16 12:12:16.030 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:19.353 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:19.353 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-16 12:12:19.353 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:21.126 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:21.126 [main] StepNameListener - Executing step: the user adds "Phone" to the cart
+[INFO ] 2024-07-16 12:12:21.127 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:26.416 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:26.417 [main] StepNameListener - Executing step: the user should see a success message "Phone has been added to your cart"
+[INFO ] 2024-07-16 12:12:26.417 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:36.486 [main] SftAssert - Success: You have added iPhone to your shopping cart! �
+[INFO ] 2024-07-16 12:12:36.731 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:36.732 [main] StepNameListener - Executing step: the user searches for "Computer"
+[INFO ] 2024-07-16 12:12:36.732 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:36.982 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:36.982 [main] StepNameListener - Executing step: the user adds "Computer" to the cart
+[INFO ] 2024-07-16 12:12:36.982 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:36.987 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:36.987 [main] StepNameListener - Executing step: the user should see a success message "Computer has been added to your cart"
+[INFO ] 2024-07-16 12:12:36.987 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:36.990 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:36.990 [main] StepNameListener - Executing step: the user searches for "Camera"
+[INFO ] 2024-07-16 12:12:36.991 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:36.993 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:36.994 [main] StepNameListener - Executing step: the user adds "Camera" to the cart
+[INFO ] 2024-07-16 12:12:36.994 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:36.996 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:36.997 [main] StepNameListener - Executing step: the user should see a success message "Camera has been added to your cart"
+[INFO ] 2024-07-16 12:12:36.997 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:37.000 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:12:37.000 [main] StepNameListener - Executing step: the cart should contain the following products:
+[INFO ] 2024-07-16 12:12:37.000 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:37.024 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-16 12:12:37.833 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 12:12:37.835 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 12:12:37.839 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-16 12:12:37.839 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 12:39:57.480 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 12:40:02.424 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 12:40:02.425 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 12:40:02.443 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 12:40:02.443 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 12:40:02.464 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 12:40:02.469 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 12:40:02.470 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 12:40:02.470 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 12:40:18.644 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 12:40:21.787 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 12:40:21.787 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 12:40:23.759 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 12:40:23.759 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 12:40:23.786 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 12:40:23.792 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 12:40:23.792 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 12:40:23.792 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 12:40:54.373 [main] SftAssert - Success: You have added iPhone to your shopping cart! �
+[INFO ] 2024-07-16 12:40:55.258 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-16 12:40:56.060 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 12:40:56.063 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 12:40:56.071 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-16 12:40:56.072 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 12:41:15.791 [main] SftAssert - Success: You have added iPhone to your shopping cart! �
+[INFO ] 2024-07-16 12:41:16.246 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 12:41:16.249 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-16 12:41:16.250 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 12:41:16.270 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-16 12:41:16.651 [AsyncHttpClient-1-4] WebSocketHandler - onError
+=======
 	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
 [INFO ] 2024-07-10 22:04:18.154 [main] Hooks - Driver Closed
 [INFO ] 2024-07-10 22:04:51.787 [main] Hooks - ================================================================
@@ -3609,6 +3845,7 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-07-10 22:05:07.216 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-07-10 22:05:07.227 [main] Hooks - CLosing the Driver
 [WARN ] 2024-07-10 22:05:07.249 [AsyncHttpClient-1-4] WebSocketHandler - onError
+
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
@@ -3623,6 +3860,77 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-16 12:41:16.996 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 12:45:37.349 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 12:45:37.359 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 12:45:37.359 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 12:45:37.374 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 12:45:43.156 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 12:45:43.157 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 12:45:43.732 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 12:45:43.732 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 12:45:43.811 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 12:45:43.824 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:45:43.825 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-16 12:45:43.825 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:14.380 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:14.381 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-16 12:46:14.381 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:14.722 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:14.723 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-16 12:46:14.723 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:15.133 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:15.134 [main] StepNameListener - Executing step: the user searches for "Phone"
+[INFO ] 2024-07-16 12:46:15.134 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:18.691 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:18.691 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-16 12:46:18.691 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:20.156 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:20.156 [main] StepNameListener - Executing step: the user adds "Phone" to the cart
+[INFO ] 2024-07-16 12:46:20.157 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:45.501 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:45.502 [main] StepNameListener - Executing step: the user should see a success message "Phone has been added to your cart"
+[INFO ] 2024-07-16 12:46:45.502 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:45.509 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:45.509 [main] StepNameListener - Executing step: the user searches for "Computer"
+[INFO ] 2024-07-16 12:46:45.509 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:45.511 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:45.511 [main] StepNameListener - Executing step: the user adds "Computer" to the cart
+[INFO ] 2024-07-16 12:46:45.511 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:45.513 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:45.513 [main] StepNameListener - Executing step: the user should see a success message "Computer has been added to your cart"
+[INFO ] 2024-07-16 12:46:45.514 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:45.516 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:45.516 [main] StepNameListener - Executing step: the user searches for "Camera"
+[INFO ] 2024-07-16 12:46:45.516 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:45.521 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:45.521 [main] StepNameListener - Executing step: the user adds "Camera" to the cart
+[INFO ] 2024-07-16 12:46:45.522 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:45.523 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:45.523 [main] StepNameListener - Executing step: the user should see a success message "Camera has been added to your cart"
+[INFO ] 2024-07-16 12:46:45.523 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:45.529 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 12:46:45.530 [main] StepNameListener - Executing step: the cart should contain the following products:
+[INFO ] 2024-07-16 12:46:45.530 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:45.551 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-16 12:46:46.203 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 12:46:46.223 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 12:46:46.234 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-16 12:46:46.236 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 12:48:41.922 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 12:48:46.730 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 12:48:46.731 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 12:48:46.746 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 12:48:46.747 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 12:48:46.768 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 12:48:46.774 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 12:48:46.775 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 12:48:46.775 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 12:49:48.037 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-16 12:49:48.356 [AsyncHttpClient-1-4] WebSocketHandler - onError
+=======
 	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
 [INFO ] 2024-07-10 22:05:07.420 [main] Hooks - Driver Closed
 [INFO ] 2024-07-10 22:07:42.311 [main] Hooks - ================================================================
@@ -4488,6 +4796,79 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-07-13 00:04:11.168 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-07-13 00:04:11.179 [main] Hooks - CLosing the Driver
 [WARN ] 2024-07-13 00:04:11.197 [AsyncHttpClient-1-4] WebSocketHandler - onError
+
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-16 12:49:48.601 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 12:49:48.603 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 12:49:48.614 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-16 12:49:48.615 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 13:10:54.676 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 13:10:54.689 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 13:10:54.689 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 13:10:54.710 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 13:10:59.623 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 13:10:59.623 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 13:10:59.637 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 13:10:59.637 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 13:10:59.661 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 13:10:59.669 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:10:59.669 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-16 13:10:59.669 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:11:30.183 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:11:30.183 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-16 13:11:30.183 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:11:30.559 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:11:30.559 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-16 13:11:30.559 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:11:31.087 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:11:31.087 [main] StepNameListener - Executing step: the user searches for "Phone"
+[INFO ] 2024-07-16 13:11:31.087 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:11:34.759 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:11:34.759 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-16 13:11:34.759 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:11:35.684 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:11:35.684 [main] StepNameListener - Executing step: the user adds "Phone" to the cart
+[INFO ] 2024-07-16 13:11:35.685 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:00.967 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:00.967 [main] StepNameListener - Executing step: the user should see a success message "Phone has been added to your cart"
+[INFO ] 2024-07-16 13:12:00.968 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:00.979 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:00.979 [main] StepNameListener - Executing step: the user searches for "Computer"
+[INFO ] 2024-07-16 13:12:00.979 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:00.982 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:00.982 [main] StepNameListener - Executing step: the user adds "Computer" to the cart
+[INFO ] 2024-07-16 13:12:00.982 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:00.985 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:00.986 [main] StepNameListener - Executing step: the user should see a success message "Computer has been added to your cart"
+[INFO ] 2024-07-16 13:12:00.986 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:00.990 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:00.990 [main] StepNameListener - Executing step: the user searches for "Camera"
+[INFO ] 2024-07-16 13:12:00.990 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:00.993 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:00.994 [main] StepNameListener - Executing step: the user adds "Camera" to the cart
+[INFO ] 2024-07-16 13:12:00.994 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:00.997 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:00.997 [main] StepNameListener - Executing step: the user should see a success message "Camera has been added to your cart"
+[INFO ] 2024-07-16 13:12:00.997 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:01.004 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:01.005 [main] StepNameListener - Executing step: the cart should contain the following products:
+[INFO ] 2024-07-16 13:12:01.005 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:01.037 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-16 13:12:01.530 [AsyncHttpClient-1-4] WebSocketHandler - onError
 java.net.SocketException: Connection reset
 	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
 	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
@@ -4502,6 +4883,1252 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-16 13:12:01.760 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 13:12:01.762 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:01.765 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-16 13:12:01.765 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:23.995 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 13:12:24.005 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 13:12:24.005 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 13:12:24.020 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 13:12:28.896 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 13:12:28.896 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 13:12:28.912 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 13:12:28.912 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 13:12:28.933 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 13:12:28.942 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:28.942 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-16 13:12:28.942 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:59.395 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:59.395 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-16 13:12:59.395 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:59.603 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:59.604 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-16 13:12:59.604 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:12:59.852 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:12:59.852 [main] StepNameListener - Executing step: the user searches for "Phone"
+[INFO ] 2024-07-16 13:12:59.852 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:03.328 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:13:03.329 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-16 13:13:03.329 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:04.194 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:13:04.194 [main] StepNameListener - Executing step: the user adds "Phone" to the cart
+[INFO ] 2024-07-16 13:13:04.194 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:29.467 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:13:29.468 [main] StepNameListener - Executing step: the user should see a success message "Phone has been added to your cart"
+[INFO ] 2024-07-16 13:13:29.468 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:29.472 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:13:29.473 [main] StepNameListener - Executing step: the user searches for "Computer"
+[INFO ] 2024-07-16 13:13:29.473 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:29.475 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:13:29.475 [main] StepNameListener - Executing step: the user adds "Computer" to the cart
+[INFO ] 2024-07-16 13:13:29.475 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:29.477 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:13:29.477 [main] StepNameListener - Executing step: the user should see a success message "Computer has been added to your cart"
+[INFO ] 2024-07-16 13:13:29.477 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:29.479 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:13:29.480 [main] StepNameListener - Executing step: the user searches for "Camera"
+[INFO ] 2024-07-16 13:13:29.480 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:29.482 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:13:29.482 [main] StepNameListener - Executing step: the user adds "Camera" to the cart
+[INFO ] 2024-07-16 13:13:29.482 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:29.483 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:13:29.484 [main] StepNameListener - Executing step: the user should see a success message "Camera has been added to your cart"
+[INFO ] 2024-07-16 13:13:29.484 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:29.490 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-16 13:13:29.490 [main] StepNameListener - Executing step: the cart should contain the following products:
+[INFO ] 2024-07-16 13:13:29.490 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:29.518 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-16 13:13:30.069 [main] Hooks - Driver Closed
+[INFO ] 2024-07-16 13:13:30.072 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 13:13:30.079 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-16 13:13:30.080 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 13:56:00.851 [main] Hooks - ================================================================
+[INFO ] 2024-07-16 13:56:00.861 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-16 13:56:00.861 [main] Hooks - =================================================================
+[INFO ] 2024-07-16 13:56:00.871 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-16 13:56:05.797 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-16 13:56:05.798 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-16 13:56:05.816 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-16 13:56:05.817 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-16 13:56:05.837 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-16 13:57:07.514 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 13:57:07.516 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-16 13:57:07.516 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-16 13:57:07.536 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-16 13:57:07.872 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-16 13:57:08.101 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 10:53:46.823 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 10:53:51.830 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 10:53:51.831 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 10:53:51.850 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 10:53:51.850 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 10:53:51.872 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 10:53:51.878 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 10:53:51.879 [main] Hooks - Scenario Title: User searches and adds multiple products to the cart and sees a success message
+[INFO ] 2024-07-17 10:53:51.879 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 10:54:53.628 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 10:54:54.203 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 10:54:54.204 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 10:54:54.207 [main] Hooks - User searches and adds multiple products to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 10:54:54.207 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:09:31.001 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:09:36.525 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:09:36.526 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:09:36.543 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 11:09:36.544 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 11:09:36.565 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 11:09:36.571 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:09:36.571 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:09:36.571 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:10:43.697 [main] SftAssert - Success: You have added iPhone to your shopping cart! �
+[INFO ] 2024-07-17 11:10:43.971 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:10:44.655 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:10:44.656 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:10:44.659 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - PASSED
+[INFO ] 2024-07-17 11:10:44.660 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:10:46.383 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:10:51.100 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:10:51.101 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:10:51.122 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:10:51.123 [main] Hooks - Scenario Title: User searches Computer and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:10:51.123 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:10:51.161 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:10:51.657 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:10:51.657 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:10:51.657 [main] Hooks - User searches Computer and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 11:10:51.659 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:10:53.445 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:10:58.496 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:10:58.497 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:10:58.500 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:10:58.500 [main] Hooks - Scenario Title: User searches Camera and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:10:58.500 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:10:58.558 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:10:59.240 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:10:59.241 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:10:59.242 [main] Hooks - User searches Camera and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 11:10:59.242 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:14:29.509 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:14:29.519 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:14:29.520 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:14:29.529 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:14:32.784 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:14:32.786 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:14:35.297 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 11:14:35.298 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 11:14:35.371 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 11:14:35.800 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:14:35.804 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - UNDEFINED
+[INFO ] 2024-07-17 11:14:35.804 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:14:35.831 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-17 11:14:36.220 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-17 11:14:36.400 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:14:37.925 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:14:37.925 [main] Hooks - Scenario Title: User searches Computer and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:14:37.925 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:14:37.925 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:14:42.982 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:14:42.982 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:14:42.999 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:14:42.999 [main] Hooks - User searches Computer and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 11:14:42.999 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:14:43.043 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:14:43.495 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:14:45.058 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:14:45.059 [main] Hooks - Scenario Title: User searches Camera and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:14:45.059 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:14:45.059 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:14:49.774 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:14:49.774 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:14:49.784 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:14:49.785 [main] Hooks - User searches Camera and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 11:14:49.785 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:14:49.828 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:14:50.516 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:28:24.432 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:28:24.438 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:28:24.438 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:28:24.442 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:28:29.837 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:28:29.838 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:28:29.856 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 11:28:29.857 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 11:28:29.876 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 11:29:28.812 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:29:29.510 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:29:29.511 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:29:29.518 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 11:29:29.519 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:29:31.360 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:29:31.361 [main] Hooks - Scenario Title: User searches Computer and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:29:31.361 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:29:31.361 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:29:36.083 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:29:36.083 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:29:36.136 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:29:36.671 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:29:36.673 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:29:36.674 [main] Hooks - User searches Computer and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 11:29:36.674 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:29:38.704 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:29:38.704 [main] Hooks - Scenario Title: User searches Camera and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:29:38.704 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:29:38.705 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:29:43.782 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:29:43.783 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:29:43.838 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:29:44.410 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:29:44.411 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:29:44.411 [main] Hooks - User searches Camera and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 11:29:44.411 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:31:20.432 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:31:20.441 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:31:20.442 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:31:20.450 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:31:25.140 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:31:25.141 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:31:25.159 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 11:31:25.159 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 11:31:25.178 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 11:32:23.209 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:32:23.212 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 11:32:23.212 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:32:23.238 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:32:23.798 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:32:25.780 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:32:25.780 [main] Hooks - Scenario Title: User searches Computer and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:32:25.780 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:32:25.781 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:32:28.976 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:32:28.993 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:32:29.039 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:32:29.040 [main] Hooks - User searches Computer and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 11:32:29.041 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:32:30.954 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:32:31.491 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:32:33.134 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:32:33.134 [main] Hooks - Scenario Title: User searches Camera and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:32:33.134 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:32:33.135 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:32:38.156 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:32:38.156 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:32:38.168 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:32:38.169 [main] Hooks - User searches Camera and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 11:32:38.169 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:32:38.209 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:32:38.671 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:50:41.298 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 11:50:41.307 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 11:50:41.307 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 11:50:41.316 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 11:50:46.082 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 11:50:46.082 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 11:50:46.099 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 11:50:46.099 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 11:50:46.118 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 11:50:46.682 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 11:50:47.205 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 11:50:47.206 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 11:50:47.210 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - UNDEFINED
+[INFO ] 2024-07-17 11:50:47.211 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:07:05.211 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 12:07:05.224 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 12:07:05.224 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 12:07:05.252 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 12:07:08.417 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 12:07:08.425 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 12:07:10.656 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 12:07:10.656 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 12:07:10.690 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 12:07:10.698 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:07:10.699 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 12:07:10.699 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:07:41.055 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:07:41.055 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 12:07:41.055 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:07:41.280 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:07:41.280 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 12:07:41.280 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:07:41.582 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:07:41.582 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 12:07:41.582 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:07:41.779 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:07:41.779 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 12:07:41.779 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:07:43.222 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:07:43.223 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 12:07:43.223 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:08:08.526 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:08:08.527 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 12:08:08.527 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:08:08.537 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:08:08.537 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 12:08:08.537 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:08:08.562 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 12:08:09.043 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 12:08:09.046 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:08:09.049 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 12:08:09.049 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:12:26.428 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 12:12:26.438 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 12:12:26.438 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 12:12:26.454 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 12:12:31.278 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 12:12:31.278 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 12:12:31.296 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 12:12:31.296 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 12:12:31.315 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 12:12:31.324 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:12:31.325 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 12:12:31.325 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:13:01.658 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:13:01.659 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 12:13:01.659 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:13:01.945 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:13:01.946 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 12:13:01.947 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:13:02.275 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:13:02.275 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 12:13:02.275 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:13:02.463 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:13:02.463 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 12:13:02.463 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:13:03.994 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:13:03.994 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 12:13:03.994 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:13:29.347 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:13:29.348 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 12:13:29.349 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:13:29.373 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:13:29.373 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 12:13:29.373 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:13:29.415 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 12:13:30.822 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 12:13:30.859 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:13:30.869 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 12:13:30.870 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:18:23.336 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 12:18:26.432 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 12:18:26.433 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 12:18:29.026 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 12:18:29.026 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 12:18:29.089 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 12:18:29.106 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 12:18:29.106 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 12:18:29.106 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 12:18:29.113 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:18:29.114 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 12:18:29.114 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:18:59.801 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:18:59.801 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 12:18:59.801 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:19:00.248 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:19:00.248 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 12:19:00.248 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:19:00.795 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:19:00.795 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 12:19:00.795 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:19:04.409 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:19:04.410 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 12:19:04.410 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:19:05.657 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:19:05.657 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 12:19:05.658 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:19:11.123 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:19:11.123 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 12:19:11.123 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:19:11.441 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:19:11.441 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 12:19:11.441 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:19:11.472 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 12:19:12.072 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 12:19:12.077 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:19:12.080 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - UNDEFINED
+[INFO ] 2024-07-17 12:19:12.081 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:20:24.033 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 12:20:24.044 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 12:20:24.044 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 12:20:24.062 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 12:20:28.954 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 12:20:28.954 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 12:20:28.972 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 12:20:28.972 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 12:20:28.994 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 12:20:29.000 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:20:29.000 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 12:20:29.000 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:20:59.367 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:20:59.367 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 12:20:59.368 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:20:59.544 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:20:59.544 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 12:20:59.544 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:20:59.837 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:20:59.837 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 12:20:59.837 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:21:03.171 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:21:03.171 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 12:21:03.172 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:21:05.031 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:21:05.032 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 12:21:05.032 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:21:10.343 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:21:10.343 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 12:21:10.343 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:21:10.544 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:21:10.545 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 12:21:10.545 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:21:10.576 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 12:21:11.075 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 12:21:11.077 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:21:11.081 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - UNDEFINED
+[INFO ] 2024-07-17 12:21:11.081 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:23:12.292 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 12:23:12.300 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 12:23:12.300 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 12:23:12.314 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 12:23:17.173 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 12:23:17.173 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 12:23:17.191 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 12:23:17.192 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 12:23:17.216 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 12:23:17.227 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:23:17.227 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 12:23:17.228 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:23:49.500 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:23:49.500 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 12:23:49.501 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:23:49.709 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:23:49.710 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 12:23:49.710 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:23:50.091 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:23:50.092 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 12:23:50.092 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:23:56.511 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:23:56.511 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 12:23:56.512 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:23:58.016 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:23:58.016 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 12:23:58.016 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:24:23.431 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:24:23.432 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 12:24:23.432 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:24:23.447 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:24:23.447 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 12:24:23.447 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:24:23.455 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:24:23.458 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 12:24:23.459 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:24:23.494 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 12:24:24.136 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 12:25:05.974 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 12:25:06.001 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 12:25:06.001 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 12:25:06.019 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 12:25:12.483 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 12:25:12.483 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 12:25:12.555 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 12:25:12.556 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 12:25:12.629 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 12:25:12.641 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:25:12.641 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 12:25:12.642 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:25:43.125 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:25:43.126 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 12:25:43.126 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:25:43.346 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:25:43.347 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 12:25:43.348 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:25:45.838 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:25:45.839 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 12:25:45.839 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:25:45.846 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:25:45.846 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 12:25:45.847 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:25:45.850 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:25:45.850 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 12:25:45.850 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:25:45.852 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:25:45.853 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 12:25:45.853 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:25:45.865 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:25:45.866 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 12:25:45.866 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:25:45.896 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-17 12:25:46.330 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-17 12:25:46.629 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 12:25:46.634 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:25:46.642 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 12:25:46.643 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:28:07.976 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 12:28:07.983 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 12:28:07.983 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 12:28:08.000 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 12:28:11.133 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 12:28:11.134 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 12:28:13.609 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 12:28:13.611 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 12:28:13.658 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 12:28:13.667 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:28:13.668 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 12:28:13.668 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:28:44.085 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:28:44.086 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 12:28:44.086 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:28:44.281 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:28:44.281 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 12:28:44.281 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:28:44.581 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:28:44.581 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 12:28:44.581 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:28:54.073 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:28:54.073 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 12:28:54.074 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:28:55.708 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:28:55.709 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 12:28:55.709 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:29:21.136 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:29:21.136 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 12:29:21.137 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:29:21.158 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 12:29:21.159 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 12:29:21.159 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 12:29:21.197 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 12:29:21.828 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 12:29:21.833 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 12:29:21.843 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 12:29:21.844 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:00:37.028 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:00:37.035 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 20:00:37.035 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:00:37.040 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:00:37.040 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 20:00:37.040 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:00:37.046 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:00:37.046 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 20:00:37.047 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:00:37.051 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:00:37.051 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 20:00:37.053 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:00:37.057 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:00:37.058 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 20:00:37.058 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:00:37.063 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:00:37.063 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 20:00:37.063 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:00:37.066 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:00:37.066 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 20:00:37.067 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:00:37.090 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:00:37.090 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 20:00:37.091 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:02:40.616 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 20:02:40.625 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 20:02:40.625 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 20:02:40.638 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 20:02:45.201 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 20:02:45.201 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 20:02:45.229 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 20:02:45.229 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 20:02:45.287 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 20:02:45.296 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:02:45.296 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 20:02:45.296 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:03:15.497 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:03:15.497 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 20:03:15.497 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:03:15.663 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:03:15.663 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 20:03:15.663 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:03:15.932 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:03:15.932 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 20:03:15.932 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:03:25.288 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:03:25.288 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 20:03:25.288 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:03:26.518 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:03:26.518 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 20:03:26.518 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:03:51.796 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:03:51.797 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 20:03:51.797 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:03:51.811 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:03:51.812 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 20:03:51.812 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:03:51.820 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:03:51.827 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 20:03:51.827 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:03:51.857 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 20:03:52.343 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 20:07:23.721 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 20:07:23.728 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 20:07:23.729 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 20:07:23.741 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 20:07:27.084 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 20:07:27.084 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 20:07:29.018 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 20:07:29.018 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 20:07:29.038 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 20:07:29.046 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:07:29.047 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 20:07:29.047 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:07:59.526 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:07:59.527 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 20:07:59.527 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:07:59.679 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:07:59.679 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 20:07:59.679 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:07:59.940 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:07:59.940 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 20:07:59.940 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:08:09.356 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:08:09.357 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 20:08:09.357 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:08:10.644 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:08:10.644 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 20:08:10.644 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:08:10.647 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:08:10.647 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 20:08:10.647 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:08:10.656 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:08:10.657 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 20:08:10.657 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:08:10.664 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:08:10.667 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 20:08:10.667 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:08:10.685 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 20:08:11.310 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 20:23:00.960 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 20:23:00.970 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 20:23:00.970 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 20:23:00.985 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 20:23:05.954 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 20:23:05.954 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 20:23:05.976 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 20:23:05.977 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 20:23:06.005 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 20:23:06.015 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:23:06.015 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 20:23:06.016 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:23:36.445 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:23:36.445 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 20:23:36.445 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:23:36.667 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:23:36.667 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 20:23:36.667 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:23:37.028 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:23:37.028 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 20:23:37.029 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:23:46.522 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:23:46.523 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 20:23:46.523 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:23:47.903 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:23:47.903 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 20:23:47.904 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:23:47.909 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:23:47.910 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 20:23:47.910 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:23:47.926 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:23:47.926 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 20:23:47.928 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:23:47.956 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 20:23:48.773 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 20:23:48.778 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:23:48.781 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 20:23:48.782 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:24:45.414 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 20:24:45.425 [main] Hooks - Scenario Title: User searches Phone and adding to the cart and sees a success message
+[INFO ] 2024-07-17 20:24:45.426 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 20:24:45.441 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 20:24:50.456 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 20:24:50.457 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 20:24:50.478 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 20:24:50.478 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 20:24:50.509 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 20:24:50.521 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:24:50.521 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 20:24:50.521 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:25:20.789 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:25:20.789 [main] StepNameListener - Executing step: the user is on the home page
+[INFO ] 2024-07-17 20:25:20.790 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:25:20.986 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:25:20.986 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 20:25:20.986 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:25:21.266 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:25:21.266 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 20:25:21.266 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:25:30.689 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:25:30.689 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 20:25:30.689 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:25:32.036 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:25:32.037 [main] StepNameListener - Executing step: the user adds product to the cart
+[INFO ] 2024-07-17 20:25:32.038 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:25:32.044 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:25:32.045 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 20:25:32.046 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:25:32.059 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:25:32.060 [main] StepNameListener - Executing step: the user should see a success message "Item has been added to your cart"
+[INFO ] 2024-07-17 20:25:32.060 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:25:32.091 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-17 20:25:32.598 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-17 20:25:32.966 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 20:25:32.967 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:25:32.970 [main] Hooks - User searches Phone and adding to the cart and sees a success message Status - FAILED
+[INFO ] 2024-07-17 20:25:32.970 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:51:31.362 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 20:51:31.368 [main] Hooks - Scenario Title: Users Searching and adding product to cart.
+[INFO ] 2024-07-17 20:51:31.368 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 20:51:31.389 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 20:51:36.259 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 20:51:36.259 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 20:51:36.279 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 20:51:36.279 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 20:51:36.301 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 20:51:36.310 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:51:36.310 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 20:51:36.311 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:52:06.605 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:52:06.605 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 20:52:06.605 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:52:06.939 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:52:06.939 [main] StepNameListener - Executing step: User types product on search bar
+[INFO ] 2024-07-17 20:52:06.939 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:52:10.293 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:52:10.294 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 20:52:10.295 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:52:11.081 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:52:11.082 [main] StepNameListener - Executing step: User clicks on add to cart
+[INFO ] 2024-07-17 20:52:11.082 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:52:11.087 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:52:11.088 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 20:52:11.089 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:52:11.118 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 20:52:11.848 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 20:52:11.854 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:52:11.857 [main] Hooks - Users Searching and adding product to cart. Status - FAILED
+[INFO ] 2024-07-17 20:52:11.858 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:52:31.949 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 20:52:31.956 [main] Hooks - Scenario Title: Users Searching and adding product to cart.
+[INFO ] 2024-07-17 20:52:31.956 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 20:52:31.972 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 20:52:36.842 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 20:52:36.843 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 20:52:36.866 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 20:52:36.866 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 20:52:36.894 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 20:52:36.909 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:52:36.909 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 20:52:36.909 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:53:07.163 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:53:07.163 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 20:53:07.164 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:53:07.467 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:53:07.467 [main] StepNameListener - Executing step: User types product on search bar
+[INFO ] 2024-07-17 20:53:07.467 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:53:10.797 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:53:10.797 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 20:53:10.797 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:53:12.347 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:53:12.348 [main] StepNameListener - Executing step: User clicks on add to cart
+[INFO ] 2024-07-17 20:53:12.348 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:53:12.353 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:53:12.354 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 20:53:12.354 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:53:12.357 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:53:12.360 [main] Hooks - Users Searching and adding product to cart. Status - FAILED
+[INFO ] 2024-07-17 20:53:12.360 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:53:12.390 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 20:53:13.145 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 20:55:13.269 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 20:55:13.276 [main] Hooks - Scenario Title: Users Searching and adding product to cart.
+[INFO ] 2024-07-17 20:55:13.276 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 20:55:13.290 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 20:55:16.398 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 20:55:16.400 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 20:55:18.106 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 20:55:18.106 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 20:55:18.128 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 20:55:18.140 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:55:18.140 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 20:55:18.140 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:55:48.404 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:55:48.405 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 20:55:48.405 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:55:48.677 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:55:48.678 [main] StepNameListener - Executing step: User types product on search bar
+[INFO ] 2024-07-17 20:55:48.678 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:55:51.974 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:55:51.974 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 20:55:51.975 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:55:53.497 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:55:53.497 [main] StepNameListener - Executing step: User clicks on add to cart
+[INFO ] 2024-07-17 20:55:53.498 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:55:53.687 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 20:55:53.687 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 20:55:53.688 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 20:55:53.711 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-17 20:55:54.175 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-17 20:55:54.409 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 20:55:54.413 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 20:55:54.417 [main] Hooks - Users Searching and adding product to cart. Status - UNDEFINED
+[INFO ] 2024-07-17 20:55:54.418 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:00:31.000 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 21:00:31.009 [main] Hooks - Scenario Title: Users Searching and adding product to cart.
+[INFO ] 2024-07-17 21:00:31.010 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 21:00:31.023 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 21:00:35.611 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 21:00:35.612 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 21:00:35.632 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 21:00:35.633 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 21:00:35.657 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 21:00:35.665 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:00:35.665 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 21:00:35.666 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:01:06.126 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:01:06.126 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 21:01:06.126 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:01:06.495 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:01:06.496 [main] StepNameListener - Executing step: User types product on search bar
+[INFO ] 2024-07-17 21:01:06.496 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:01:09.894 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:01:09.894 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 21:01:09.894 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:01:10.919 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:01:10.919 [main] StepNameListener - Executing step: User click on add to cart
+[INFO ] 2024-07-17 21:01:10.919 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:01:16.217 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:01:16.217 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 21:01:16.217 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:01:16.390 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:01:16.393 [main] Hooks - Users Searching and adding product to cart. Status - UNDEFINED
+[INFO ] 2024-07-17 21:01:16.393 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:01:16.413 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 21:01:17.119 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 21:04:02.614 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 21:04:02.621 [main] Hooks - Scenario Title: Users Searching and adding product to cart.
+[INFO ] 2024-07-17 21:04:02.622 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 21:04:02.634 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 21:04:07.600 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 21:04:07.601 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 21:04:07.622 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 21:04:07.622 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 21:04:07.645 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 21:04:07.652 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:04:07.652 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 21:04:07.653 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:04:37.905 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:04:37.905 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 21:04:37.906 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:04:38.176 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:04:38.177 [main] StepNameListener - Executing step: User types product on search bar
+[INFO ] 2024-07-17 21:04:38.177 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:04:41.477 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:04:41.477 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 21:04:41.477 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:04:42.999 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:04:43.000 [main] StepNameListener - Executing step: User click on add to cart
+[INFO ] 2024-07-17 21:04:43.000 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:04:48.275 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:04:48.275 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 21:04:48.275 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:04:48.454 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:04:48.455 [main] Hooks - Users Searching and adding product to cart. Status - UNDEFINED
+[INFO ] 2024-07-17 21:04:48.456 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:04:48.480 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-17 21:04:48.964 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-17 21:04:49.178 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 21:05:37.840 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 21:05:37.854 [main] Hooks - Scenario Title: Users Searching and adding product to cart.
+[INFO ] 2024-07-17 21:05:37.854 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 21:05:37.872 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 21:05:42.836 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 21:05:42.836 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 21:05:42.857 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 21:05:42.857 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 21:05:42.879 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 21:05:42.889 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:05:42.889 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 21:05:42.889 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:06:13.141 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:06:13.141 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 21:06:13.141 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:06:13.437 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:06:13.438 [main] StepNameListener - Executing step: User types product on search bar
+[INFO ] 2024-07-17 21:06:13.438 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:06:16.747 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:06:16.747 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 21:06:16.747 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:06:18.286 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:06:18.286 [main] StepNameListener - Executing step: User click on add to cart
+[INFO ] 2024-07-17 21:06:18.286 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:06:23.568 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:06:23.569 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 21:06:23.569 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:06:33.639 [main] SftAssert - Success: You have added iPhone to your shopping cart! �
+[INFO ] 2024-07-17 21:06:33.880 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-17 21:06:34.204 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-17 21:06:34.617 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 21:06:34.620 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:06:34.621 [main] Hooks - Users Searching and adding product to cart. Status - PASSED
+[INFO ] 2024-07-17 21:06:34.622 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:25:10.532 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 21:25:10.540 [main] Hooks - Scenario Title: User Searching multiple product
+[INFO ] 2024-07-17 21:25:10.541 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 21:25:10.554 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 21:25:15.279 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 21:25:15.279 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 21:25:15.297 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 21:25:15.298 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 21:25:15.324 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 21:25:15.334 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:25:15.335 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 21:25:15.335 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:25:45.644 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:25:45.644 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 21:25:45.645 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:25:45.955 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:25:45.955 [main] StepNameListener - Executing step: the user searches for "<Product Name>"
+[INFO ] 2024-07-17 21:25:45.955 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:25:46.201 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:25:46.202 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 21:25:46.202 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:25:46.205 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:25:46.205 [main] StepNameListener - Executing step: User click on add to cart
+[INFO ] 2024-07-17 21:25:46.206 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:25:46.211 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:25:46.211 [main] StepNameListener - Executing step: the Total number of results are <Id>
+[INFO ] 2024-07-17 21:25:46.212 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:25:46.222 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:25:46.222 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 21:25:46.222 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:25:46.249 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 21:25:47.004 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 21:25:47.008 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:25:47.012 [main] Hooks - User Searching multiple product Status - FAILED
+[INFO ] 2024-07-17 21:25:47.012 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:28:46.691 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 21:28:46.697 [main] Hooks - Scenario Title: User Searching multiple product
+[INFO ] 2024-07-17 21:28:46.698 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 21:28:46.713 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 21:28:51.804 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 21:28:51.804 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 21:28:51.821 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 21:28:51.822 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 21:28:51.847 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 21:28:51.860 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:28:51.861 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 21:28:51.861 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:22.144 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:22.144 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 21:29:22.144 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:22.432 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:22.433 [main] StepNameListener - Executing step: the user searches for "Phone"
+[INFO ] 2024-07-17 21:29:22.433 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:22.692 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:22.693 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 21:29:22.693 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:22.697 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:22.698 [main] StepNameListener - Executing step: User click on add to cart
+[INFO ] 2024-07-17 21:29:22.698 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:22.701 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:22.701 [main] StepNameListener - Executing step: the Total number of results are 1
+[INFO ] 2024-07-17 21:29:22.701 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:22.705 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:22.706 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 21:29:22.706 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:22.717 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:22.721 [main] Hooks - User Searching multiple product Status - FAILED
+[INFO ] 2024-07-17 21:29:22.722 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:22.741 [main] Hooks - CLosing the Driver
+[WARN ] 2024-07-17 21:29:23.186 [AsyncHttpClient-1-4] WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) [netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
+[INFO ] 2024-07-17 21:29:23.408 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 21:29:25.415 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 21:29:25.415 [main] Hooks - Scenario Title: User Searching multiple product
+[INFO ] 2024-07-17 21:29:25.415 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 21:29:25.418 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 21:29:30.164 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 21:29:30.165 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 21:29:30.178 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:30.178 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 21:29:30.178 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:30.182 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:30.182 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 21:29:30.182 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:30.184 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:30.184 [main] StepNameListener - Executing step: the user searches for "Macbook Pro"
+[INFO ] 2024-07-17 21:29:30.184 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:30.185 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:30.186 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 21:29:30.186 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:30.189 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:30.190 [main] StepNameListener - Executing step: User click on add to cart
+[INFO ] 2024-07-17 21:29:30.190 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:30.193 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:30.193 [main] StepNameListener - Executing step: the Total number of results are 1
+[INFO ] 2024-07-17 21:29:30.193 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:30.195 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:30.195 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 21:29:30.195 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:30.198 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:30.198 [main] Hooks - User Searching multiple product Status - FAILED
+[INFO ] 2024-07-17 21:29:30.198 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:30.243 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 21:29:30.997 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 21:29:32.852 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 21:29:32.853 [main] Hooks - Scenario Title: User Searching multiple product
+[INFO ] 2024-07-17 21:29:32.853 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 21:29:32.854 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 21:29:37.611 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 21:29:37.612 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 21:29:37.621 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:37.622 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 21:29:37.622 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:37.627 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:37.627 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 21:29:37.627 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:37.629 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:37.630 [main] StepNameListener - Executing step: the user searches for "iMac"
+[INFO ] 2024-07-17 21:29:37.630 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:37.632 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:37.633 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 21:29:37.633 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:37.636 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:37.636 [main] StepNameListener - Executing step: User click on add to cart
+[INFO ] 2024-07-17 21:29:37.636 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:37.638 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:37.639 [main] StepNameListener - Executing step: the Total number of results are 1
+[INFO ] 2024-07-17 21:29:37.640 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:37.642 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:29:37.642 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 21:29:37.642 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:37.645 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:37.645 [main] Hooks - User Searching multiple product Status - FAILED
+[INFO ] 2024-07-17 21:29:37.646 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:29:37.733 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 21:29:38.509 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 21:32:28.817 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 21:32:28.827 [main] Hooks - Scenario Title: User Searching multiple product
+[INFO ] 2024-07-17 21:32:28.828 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 21:32:28.843 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 21:32:33.816 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 21:32:33.817 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 21:32:33.840 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-17 21:32:33.841 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-17 21:32:33.863 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-17 21:32:33.872 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:32:33.872 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 21:32:33.872 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:04.141 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:04.141 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 21:33:04.142 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:04.420 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:04.421 [main] StepNameListener - Executing step: the user searches for "Phone"
+[INFO ] 2024-07-17 21:33:04.421 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:04.916 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:04.917 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 21:33:04.917 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:06.377 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:06.377 [main] StepNameListener - Executing step: User click on add to cart
+[INFO ] 2024-07-17 21:33:06.377 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:11.652 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:11.652 [main] StepNameListener - Executing step: the Total number of results are 1
+[INFO ] 2024-07-17 21:33:11.652 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:11.827 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:11.828 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 21:33:11.828 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:21.896 [main] SftAssert - Success: You have added iPhone to your shopping cart! �
+[INFO ] 2024-07-17 21:33:22.112 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 21:33:23.080 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 21:33:23.085 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:23.093 [main] Hooks - User Searching multiple product Status - PASSED
+[INFO ] 2024-07-17 21:33:23.093 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:24.927 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 21:33:24.927 [main] Hooks - Scenario Title: User Searching multiple product
+[INFO ] 2024-07-17 21:33:24.928 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 21:33:24.931 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 21:33:29.961 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 21:33:29.961 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 21:33:29.988 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:29.989 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 21:33:29.991 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:29.995 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:29.995 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 21:33:29.996 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:29.999 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:30.000 [main] StepNameListener - Executing step: the user searches for "Macbook Pro"
+[INFO ] 2024-07-17 21:33:30.000 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:30.002 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:30.003 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 21:33:30.003 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:30.005 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:30.005 [main] StepNameListener - Executing step: User click on add to cart
+[INFO ] 2024-07-17 21:33:30.005 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:30.007 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:30.007 [main] StepNameListener - Executing step: the Total number of results are 1
+[INFO ] 2024-07-17 21:33:30.007 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:30.010 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:30.010 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 21:33:30.010 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:30.079 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 21:33:30.787 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 21:33:30.788 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:30.789 [main] Hooks - User Searching multiple product Status - FAILED
+[INFO ] 2024-07-17 21:33:30.789 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:32.700 [main] Hooks - ================================================================
+[INFO ] 2024-07-17 21:33:32.700 [main] Hooks - Scenario Title: User Searching multiple product
+[INFO ] 2024-07-17 21:33:32.701 [main] Hooks - =================================================================
+[INFO ] 2024-07-17 21:33:32.703 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-17 21:33:37.437 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-17 21:33:37.438 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-17 21:33:37.444 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:37.444 [main] StepNameListener - Executing step: User is logged in
+[INFO ] 2024-07-17 21:33:37.445 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:37.448 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:37.448 [main] StepNameListener - Executing step: User Clicks on Search bar
+[INFO ] 2024-07-17 21:33:37.448 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:37.451 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:37.452 [main] StepNameListener - Executing step: the user searches for "iMac"
+[INFO ] 2024-07-17 21:33:37.452 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:37.455 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:37.456 [main] StepNameListener - Executing step: User click search button
+[INFO ] 2024-07-17 21:33:37.456 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:37.457 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:37.458 [main] StepNameListener - Executing step: User click on add to cart
+[INFO ] 2024-07-17 21:33:37.458 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:37.460 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:37.460 [main] StepNameListener - Executing step: the Total number of results are 1
+[INFO ] 2024-07-17 21:33:37.461 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:37.464 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-07-17 21:33:37.465 [main] StepNameListener - Executing step: Successfully message verification
+[INFO ] 2024-07-17 21:33:37.465 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:37.517 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-17 21:33:38.207 [main] Hooks - Driver Closed
+[INFO ] 2024-07-17 21:33:38.212 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-17 21:33:38.214 [main] Hooks - User Searching multiple product Status - FAILED
+[INFO ] 2024-07-17 21:33:38.215 [main] Hooks - ------------------------------------------------------------------------------------------------------
+
 	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
 [INFO ] 2024-07-13 00:04:11.362 [main] Hooks - Driver Closed
 [INFO ] 2024-07-13 00:06:39.794 [main] Hooks - ================================================================
@@ -6015,3 +7642,4 @@ java.lang.OutOfMemoryError: Java heap space
 [INFO ] 2024-07-13 16:12:37.625 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-07-13 16:12:37.637 [main] Hooks - CLosing the Driver
 [INFO ] 2024-07-13 16:12:37.817 [main] Hooks - Driver Closed
+
