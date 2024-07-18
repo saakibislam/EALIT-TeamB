@@ -38,7 +38,7 @@ public class SftAssert extends Assertion {
 	
 	
 
-	private void handleAssertionFailure(String message) {
+	public void handleAssertionFailure(String message) {
 		failureCount++;
 		logger.info("Assertion failed: " + message);
 		// Implement screenshot capture logic here if needed
