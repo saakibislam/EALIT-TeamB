@@ -1400,6 +1400,75 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-06-09 13:30:55.910 [main] Hooks - running abc tag Status - PASSED
 [INFO ] 2024-06-09 13:30:55.910 [main] Hooks - ------------------------------------------------------------------------------------------------------
 
+[INFO ] 2024-07-05 21:13:56.794 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-05 21:13:59.266 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-05 21:13:59.266 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-05 21:13:59.276 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-05 21:13:59.276 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-05 21:13:59.288 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-05 21:13:59.291 [main] Hooks - ================================================================
+[INFO ] 2024-07-05 21:13:59.292 [main] Hooks - Scenario Title: Title of your scenario
+[INFO ] 2024-07-05 21:13:59.292 [main] Hooks - =================================================================
+[INFO ] 2024-07-05 21:13:59.292 [main] abc_SetpD - ************************-----------------------abc tag---------------------------******************************
+[INFO ] 2024-07-05 21:13:59.561 [main] abc_SetpD - ************************-----------------------ABC tag---------------------------******************************
+[INFO ] 2024-07-05 21:13:59.914 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-05 21:14:00.100 [main] Hooks - Driver Closed
+[INFO ] 2024-07-05 21:14:00.100 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-05 21:14:00.102 [main] Hooks - Title of your scenario Status - UNDEFINED
+[INFO ] 2024-07-05 21:14:00.102 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-05 21:31:40.354 [main] Hooks - ================================================================
+[INFO ] 2024-07-05 21:31:40.357 [main] Hooks - Scenario Title: Title of your scenario
+[INFO ] 2024-07-05 21:31:40.357 [main] Hooks - =================================================================
+[INFO ] 2024-07-05 21:31:40.359 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-05 21:31:43.093 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-05 21:31:43.093 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-05 21:31:43.102 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-05 21:31:43.102 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-05 21:31:43.112 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-05 21:31:43.314 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-05 21:31:43.440 [main] Hooks - Driver Closed
+[INFO ] 2024-07-05 21:31:43.440 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-05 21:31:43.441 [main] Hooks - Title of your scenario Status - UNDEFINED
+[INFO ] 2024-07-05 21:31:43.441 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[WARN ] 2024-07-06 17:50:25.303 [main] TestRunner - Support to run JUnit tests using TestNG stands deprecated and will be removed in future versions. You can now use the JUnit5 TestNG engine to run both JUnit and TestNG tests. For more information refer to https://github.com/junit-team/testng-engine .
+[INFO ] 2024-07-09 12:25:04.628 [main] Hooks - ================================================================
+[INFO ] 2024-07-09 12:25:04.633 [main] Hooks - Scenario Title: Title of your scenario
+[INFO ] 2024-07-09 12:25:04.633 [main] Hooks - =================================================================
+[INFO ] 2024-07-09 12:25:04.635 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-09 12:25:07.629 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-09 12:25:07.629 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-09 12:25:07.637 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-09 12:25:07.637 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-09 12:25:07.646 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-09 12:25:07.832 [main] Hooks - CLosing the Driver
+[INFO ] 2024-07-09 12:25:07.962 [main] Hooks - Driver Closed
+[INFO ] 2024-07-09 12:25:07.962 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-09 12:25:07.963 [main] Hooks - Title of your scenario Status - UNDEFINED
+[INFO ] 2024-07-09 12:25:07.964 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-09 12:27:05.325 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-07-09 12:27:08.608 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-07-09 12:27:08.608 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-07-09 12:27:08.617 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-07-09 12:27:08.617 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-07-09 12:27:08.626 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-07-09 12:27:08.628 [main] Hooks - ================================================================
+[INFO ] 2024-07-09 12:27:08.628 [main] Hooks - Scenario Title: Title of your scenario
+[INFO ] 2024-07-09 12:27:08.628 [main] Hooks - =================================================================
+[INFO ] 2024-07-09 12:27:08.834 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-07-09 12:27:08.836 [main] Hooks - Title of your scenario Status - FAILED
+[INFO ] 2024-07-09 12:27:08.836 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 19:38:21.439 [main] Hooks - ================================================================
+[INFO ] 2024-08-02 19:38:21.443 [main] Hooks - Scenario Title: Checkout
+[INFO ] 2024-08-02 19:38:21.443 [main] Hooks - =================================================================
+[INFO ] 2024-08-02 19:38:21.445 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-02 19:38:23.862 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-08-02 19:38:23.862 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-02 19:38:23.872 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-02 19:38:23.872 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-02 19:38:23.894 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-02 19:38:27.872 [main] Hooks - CLosing the Driver
+[WARN ] 2024-08-02 19:38:27.899 [AsyncHttpClient-1-4] WebSocketHandler - onError
+
 [INFO ] 2024-07-12 19:28:05.540 [main] Hooks - ================================================================
 [INFO ] 2024-07-12 19:28:05.553 [main] Hooks - Scenario Title: running abc tag
 [INFO ] 2024-07-12 19:28:05.553 [main] Hooks - =================================================================
@@ -2790,6 +2859,302 @@ java.net.SocketException: Connection reset
 	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.92.Final.jar:4.1.92.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.92.Final.jar:4.1.92.Final]
+
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[INFO ] 2024-08-02 19:38:28.051 [main] Hooks - Driver Closed
+[INFO ] 2024-08-02 19:38:28.051 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 19:38:28.054 [main] Hooks - Checkout Status - UNDEFINED
+[INFO ] 2024-08-02 19:38:28.054 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:22:23.681 [main] Hooks - ================================================================
+[INFO ] 2024-08-02 20:22:23.684 [main] Hooks - Scenario Title: Checkout
+[INFO ] 2024-08-02 20:22:23.684 [main] Hooks - =================================================================
+[INFO ] 2024-08-02 20:22:23.686 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-02 20:22:26.443 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-08-02 20:22:26.443 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-02 20:22:26.468 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-02 20:22:26.469 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-02 20:22:26.481 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-02 20:23:16.484 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:23:16.487 [main] Hooks - Checkout Status - FAILED
+[INFO ] 2024-08-02 20:23:16.489 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:32:58.514 [main] Hooks - ================================================================
+[INFO ] 2024-08-02 20:32:58.516 [main] Hooks - Scenario Title: Checkout
+[INFO ] 2024-08-02 20:32:58.516 [main] Hooks - =================================================================
+[INFO ] 2024-08-02 20:32:58.519 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-02 20:33:01.083 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-08-02 20:33:01.083 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-02 20:33:01.090 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-02 20:33:01.090 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-02 20:33:01.100 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-02 20:33:52.228 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-02 20:33:52.413 [main] Hooks - Driver Closed
+[INFO ] 2024-08-02 20:33:52.414 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:33:52.416 [main] Hooks - Checkout Status - FAILED
+[INFO ] 2024-08-02 20:33:52.416 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:34:03.073 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-02 20:34:10.963 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-08-02 20:34:10.963 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-02 20:34:10.973 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-02 20:34:10.973 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-02 20:34:11.004 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-02 20:34:11.007 [main] Hooks - ================================================================
+[INFO ] 2024-08-02 20:34:11.007 [main] Hooks - Scenario Title: Checkout
+[INFO ] 2024-08-02 20:34:11.007 [main] Hooks - =================================================================
+[INFO ] 2024-08-02 20:35:05.280 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:35:05.282 [main] Hooks - Checkout Status - FAILED
+[INFO ] 2024-08-02 20:35:05.282 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:36:38.636 [main] Hooks - ================================================================
+[INFO ] 2024-08-02 20:36:38.638 [main] Hooks - Scenario Title: Checkout
+[INFO ] 2024-08-02 20:36:38.639 [main] Hooks - =================================================================
+[INFO ] 2024-08-02 20:36:38.644 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-02 20:36:46.664 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-08-02 20:36:46.665 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-02 20:36:46.676 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-02 20:36:46.676 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-02 20:36:46.690 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-02 20:36:46.704 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:36:46.705 [main] StepNameListener - Executing step: the product is added to the cart
+[INFO ] 2024-08-02 20:36:46.705 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:37:16.927 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:37:16.928 [main] StepNameListener - Executing step: user clicks on cart button
+[INFO ] 2024-08-02 20:37:16.928 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:37:17.230 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:37:17.231 [main] StepNameListener - Executing step: user clicks on checkout link
+[INFO ] 2024-08-02 20:37:17.231 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:37:18.669 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:37:18.670 [main] StepNameListener - Executing step: user click on Estimate Shipping & Taxes dropdown button
+[INFO ] 2024-08-02 20:37:18.670 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:37:23.708 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:37:23.709 [main] StepNameListener - Executing step: user fills up shipphing form
+[INFO ] 2024-08-02 20:37:23.709 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:37:23.710 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:37:23.710 [main] StepNameListener - Executing step: user click on get quote button
+[INFO ] 2024-08-02 20:37:23.711 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:37:23.711 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:37:23.712 [main] StepNameListener - Executing step: user select Flat Shipping Rate and click on Apply Shipping
+[INFO ] 2024-08-02 20:37:23.712 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:37:23.715 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:37:23.715 [main] StepNameListener - Executing step: user click on checkout button
+[INFO ] 2024-08-02 20:37:23.715 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:37:23.721 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:37:23.723 [main] Hooks - Checkout Status - FAILED
+[INFO ] 2024-08-02 20:37:23.723 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[WARN ] 2024-08-02 20:37:25.026 [main] FileSystemFontProvider - New fonts found, font cache will be re-built
+[WARN ] 2024-08-02 20:37:25.026 [main] FileSystemFontProvider - Building on-disk font cache, this may take a while
+[WARN ] 2024-08-02 20:37:26.742 [main] FileSystemFontProvider - Finished building on-disk font cache, found 358 fonts
+[INFO ] 2024-08-02 20:41:04.756 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-02 20:41:11.556 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-08-02 20:41:11.556 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-02 20:41:11.581 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-02 20:41:11.581 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-02 20:41:11.599 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-02 20:41:11.605 [main] Hooks - ================================================================
+[INFO ] 2024-08-02 20:41:11.606 [main] Hooks - Scenario Title: Checkout
+[INFO ] 2024-08-02 20:41:11.606 [main] Hooks - =================================================================
+[INFO ] 2024-08-02 20:41:11.611 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:41:11.611 [main] StepNameListener - Executing step: the product is added to the cart
+[INFO ] 2024-08-02 20:41:11.611 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:41:41.785 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:41:41.785 [main] StepNameListener - Executing step: user clicks on cart button
+[INFO ] 2024-08-02 20:41:41.785 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:41:42.014 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:41:42.014 [main] StepNameListener - Executing step: user clicks on checkout link
+[INFO ] 2024-08-02 20:41:42.014 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:41:42.891 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:41:42.891 [main] StepNameListener - Executing step: user click on Estimate Shipping & Taxes dropdown button
+[INFO ] 2024-08-02 20:41:42.892 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:41:57.037 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:41:57.037 [main] StepNameListener - Executing step: user fills up shipphing form
+[INFO ] 2024-08-02 20:41:57.037 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:41:57.041 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:41:57.041 [main] StepNameListener - Executing step: user click on get quote button
+[INFO ] 2024-08-02 20:41:57.041 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:41:57.043 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:41:57.043 [main] StepNameListener - Executing step: user select Flat Shipping Rate and click on Apply Shipping
+[INFO ] 2024-08-02 20:41:57.043 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:41:57.046 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:41:57.046 [main] StepNameListener - Executing step: user click on checkout button
+[INFO ] 2024-08-02 20:41:57.046 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:41:57.066 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:41:57.067 [main] Hooks - Checkout Status - FAILED
+[INFO ] 2024-08-02 20:41:57.067 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:43:00.308 [main] Hooks - ================================================================
+[INFO ] 2024-08-02 20:43:00.310 [main] Hooks - Scenario Title: Checkout
+[INFO ] 2024-08-02 20:43:00.310 [main] Hooks - =================================================================
+[INFO ] 2024-08-02 20:43:00.314 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-02 20:43:07.438 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-08-02 20:43:07.438 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-02 20:43:07.447 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-02 20:43:07.449 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-02 20:43:07.475 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-02 20:43:07.480 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:43:07.481 [main] StepNameListener - Executing step: the product is added to the cart
+[INFO ] 2024-08-02 20:43:07.481 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:43:37.662 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:43:37.662 [main] StepNameListener - Executing step: user clicks on cart button
+[INFO ] 2024-08-02 20:43:37.662 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:43:37.898 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:43:37.898 [main] StepNameListener - Executing step: user clicks on checkout link
+[INFO ] 2024-08-02 20:43:37.898 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:43:43.812 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:43:43.812 [main] StepNameListener - Executing step: user click on Estimate Shipping & Taxes dropdown button
+[INFO ] 2024-08-02 20:43:43.812 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:44:09.035 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:44:09.035 [main] StepNameListener - Executing step: user fills up shipphing form
+[INFO ] 2024-08-02 20:44:09.035 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:44:09.037 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:44:09.037 [main] StepNameListener - Executing step: user click on get quote button
+[INFO ] 2024-08-02 20:44:09.037 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:44:09.038 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:44:09.038 [main] StepNameListener - Executing step: user select Flat Shipping Rate and click on Apply Shipping
+[INFO ] 2024-08-02 20:44:09.038 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:44:09.040 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:44:09.040 [main] StepNameListener - Executing step: user click on checkout button
+[INFO ] 2024-08-02 20:44:09.040 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:44:09.052 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-02 20:44:09.243 [main] Hooks - Driver Closed
+[INFO ] 2024-08-02 20:44:09.247 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:44:09.257 [main] Hooks - Checkout Status - FAILED
+[INFO ] 2024-08-02 20:44:09.257 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:50:01.734 [main] Hooks - ================================================================
+[INFO ] 2024-08-02 20:50:01.737 [main] Hooks - Scenario Title: Checkout
+[INFO ] 2024-08-02 20:50:01.737 [main] Hooks - =================================================================
+[INFO ] 2024-08-02 20:50:01.741 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-02 20:50:04.407 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-08-02 20:50:04.409 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-02 20:50:04.426 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-02 20:50:04.426 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-02 20:50:07.987 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-02 20:50:07.994 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:50:07.994 [main] StepNameListener - Executing step: the product is added to the cart
+[INFO ] 2024-08-02 20:50:07.994 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:50:38.187 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:50:38.187 [main] StepNameListener - Executing step: user clicks on cart button
+[INFO ] 2024-08-02 20:50:38.187 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:50:38.403 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:50:38.403 [main] StepNameListener - Executing step: user clicks on checkout link
+[INFO ] 2024-08-02 20:50:38.403 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:50:44.836 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:50:44.836 [main] StepNameListener - Executing step: user click on Estimate Shipping & Taxes dropdown button
+[INFO ] 2024-08-02 20:50:44.837 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:51:10.021 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:51:10.022 [main] StepNameListener - Executing step: user fills up shipphing form
+[INFO ] 2024-08-02 20:51:10.022 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:51:10.023 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:51:10.023 [main] StepNameListener - Executing step: user click on get quote button
+[INFO ] 2024-08-02 20:51:10.023 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:51:10.025 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:51:10.025 [main] StepNameListener - Executing step: user select Flat Shipping Rate and click on Apply Shipping
+[INFO ] 2024-08-02 20:51:10.026 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:51:10.028 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:51:10.028 [main] StepNameListener - Executing step: user click on checkout button
+[INFO ] 2024-08-02 20:51:10.028 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:51:10.040 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-02 20:51:10.244 [main] Hooks - Driver Closed
+[INFO ] 2024-08-02 20:51:10.252 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:51:10.257 [main] Hooks - Checkout Status - FAILED
+[INFO ] 2024-08-02 20:51:10.257 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:58:25.448 [main] Hooks - ================================================================
+[INFO ] 2024-08-02 20:58:25.453 [main] Hooks - Scenario Title: Checkout
+[INFO ] 2024-08-02 20:58:25.453 [main] Hooks - =================================================================
+[INFO ] 2024-08-02 20:58:25.458 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-02 20:58:28.076 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-08-02 20:58:28.076 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-02 20:58:28.087 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-02 20:58:28.089 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-02 20:58:28.111 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-02 20:58:28.114 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:58:28.114 [main] StepNameListener - Executing step: the product is added to the cart
+[INFO ] 2024-08-02 20:58:28.114 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:58:58.303 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:58:58.303 [main] StepNameListener - Executing step: user clicks on cart button
+[INFO ] 2024-08-02 20:58:58.303 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:58:58.515 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:58:58.515 [main] StepNameListener - Executing step: user clicks on checkout link
+[INFO ] 2024-08-02 20:58:58.515 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:59:04.452 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:59:04.452 [main] StepNameListener - Executing step: user click on Estimate Shipping & Taxes dropdown button
+[INFO ] 2024-08-02 20:59:04.452 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:59:29.648 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:59:29.648 [main] StepNameListener - Executing step: user fills up shipphing form
+[INFO ] 2024-08-02 20:59:29.648 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:59:29.650 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:59:29.650 [main] StepNameListener - Executing step: user click on get quote button
+[INFO ] 2024-08-02 20:59:29.650 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:59:29.651 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:59:29.652 [main] StepNameListener - Executing step: user select Flat Shipping Rate and click on Apply Shipping
+[INFO ] 2024-08-02 20:59:29.652 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:59:29.654 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 20:59:29.654 [main] StepNameListener - Executing step: user click on checkout button
+[INFO ] 2024-08-02 20:59:29.654 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 20:59:29.663 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-02 20:59:29.849 [main] Hooks - Driver Closed
+[INFO ] 2024-08-02 20:59:29.850 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 20:59:29.852 [main] Hooks - Checkout Status - FAILED
+[INFO ] 2024-08-02 20:59:29.852 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 21:00:24.860 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:00:24.863 [main] StepNameListener - Executing step: the product is added to the cart
+[INFO ] 2024-08-02 21:00:24.863 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:00:24.866 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:00:24.866 [main] StepNameListener - Executing step: user clicks on cart button
+[INFO ] 2024-08-02 21:00:24.866 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:00:24.872 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:00:24.872 [main] StepNameListener - Executing step: user clicks on checkout link
+[INFO ] 2024-08-02 21:00:24.872 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:00:24.875 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:00:24.875 [main] StepNameListener - Executing step: user click on Estimate Shipping & Taxes dropdown button
+[INFO ] 2024-08-02 21:00:24.875 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:00:24.875 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:00:24.876 [main] StepNameListener - Executing step: user fills up shipphing form
+[INFO ] 2024-08-02 21:00:24.876 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:00:24.876 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:00:24.877 [main] StepNameListener - Executing step: user click on get quote button
+[INFO ] 2024-08-02 21:00:24.877 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:00:24.877 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:00:24.877 [main] StepNameListener - Executing step: user select Flat Shipping Rate and click on Apply Shipping
+[INFO ] 2024-08-02 21:00:24.877 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:00:24.881 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:00:24.881 [main] StepNameListener - Executing step: user click on checkout button
+[INFO ] 2024-08-02 21:00:24.881 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:02:22.356 [main] Hooks - ================================================================
+[INFO ] 2024-08-02 21:02:22.359 [main] Hooks - Scenario Title: Checkout
+[INFO ] 2024-08-02 21:02:22.359 [main] Hooks - =================================================================
+[INFO ] 2024-08-02 21:02:22.378 [main] Hooks - Running Hooks before every scenario
+[INFO ] 2024-08-02 21:02:24.957 [main] Hooks - *URL Lunched from hooks : https://tutorialsninja.com/demo/index.php?route=common/home
+[INFO ] 2024-08-02 21:02:24.958 [main] CommonMethods - Wait for Web Page to load completely
+[INFO ] 2024-08-02 21:02:24.965 [main] CommonMethods - Web Page loaded successfully.
+[INFO ] 2024-08-02 21:02:24.966 [main] CommonMethods - Wait for AJAX to load completely
+[INFO ] 2024-08-02 21:02:24.975 [main] CommonMethods - AJAX component of the page loaded successfully.
+[INFO ] 2024-08-02 21:02:24.979 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:02:24.979 [main] StepNameListener - Executing step: the product is added to the cart
+[INFO ] 2024-08-02 21:02:24.979 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:02:55.154 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:02:55.155 [main] StepNameListener - Executing step: user clicks on cart button
+[INFO ] 2024-08-02 21:02:55.155 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:02:55.369 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:02:55.369 [main] StepNameListener - Executing step: user clicks on checkout link
+[INFO ] 2024-08-02 21:02:55.369 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:03:01.776 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:03:01.776 [main] StepNameListener - Executing step: user click on Estimate Shipping & Taxes dropdown button
+[INFO ] 2024-08-02 21:03:01.777 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:03:27.026 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:03:27.026 [main] StepNameListener - Executing step: user fills up shipphing form
+[INFO ] 2024-08-02 21:03:27.027 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:03:27.028 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:03:27.028 [main] StepNameListener - Executing step: user click on get quote button
+[INFO ] 2024-08-02 21:03:27.028 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:03:27.030 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:03:27.030 [main] StepNameListener - Executing step: user select Flat Shipping Rate and click on Apply Shipping
+[INFO ] 2024-08-02 21:03:27.030 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:03:27.032 [main] StepNameListener - ---------------------------------------------------------------------
+[WARN ] 2024-08-02 21:03:27.032 [main] StepNameListener - Executing step: user click on checkout button
+[INFO ] 2024-08-02 21:03:27.034 [main] StepNameListener - ---------------------------------------------------------------------
+[INFO ] 2024-08-02 21:03:27.045 [main] Hooks - CLosing the Driver
+[INFO ] 2024-08-02 21:03:27.228 [main] Hooks - Driver Closed
+[INFO ] 2024-08-02 21:03:27.229 [main] Hooks - ------------------------------------------------------------------------------------------------------
+[INFO ] 2024-08-02 21:03:27.231 [main] Hooks - Checkout Status - FAILED
+[INFO ] 2024-08-02 21:03:27.231 [main] Hooks - ------------------------------------------------------------------------------------------------------
+
 
 	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
 [INFO ] 2024-07-16 11:38:52.551 [main] Hooks - Driver Closed
@@ -7642,4 +8007,3 @@ java.lang.OutOfMemoryError: Java heap space
 [INFO ] 2024-07-13 16:12:37.625 [main] Hooks - ------------------------------------------------------------------------------------------------------
 [INFO ] 2024-07-13 16:12:37.637 [main] Hooks - CLosing the Driver
 [INFO ] 2024-07-13 16:12:37.817 [main] Hooks - Driver Closed
-
