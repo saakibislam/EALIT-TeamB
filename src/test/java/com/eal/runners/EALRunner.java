@@ -23,7 +23,7 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/features", 
 		glue = {"com.pdl.step_definitions","com.pdl.hooks"},
 		dryRun=false,
-		tags="@abc"
+		tags="@qaf_checkout"
 		
 //		monochrome=false
 )
