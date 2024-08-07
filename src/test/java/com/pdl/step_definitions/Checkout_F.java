@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import com.codoid.products.fillo.Select;
+import com.pdl.pages.HomePage;
+import com.pdl.pages.SignInPage;
 import com.pdl.utilities.CommonMethods;
 
 import io.cucumber.java.en.Given;
@@ -14,13 +16,42 @@ import io.cucumber.java.en.When;
 
 public class Checkout_F extends CommonMethods {
 	
-	
+	WebElement searchField;
 
 @Given("the product is added to the cart")
 public void the_product_is_added_to_the_cart() {
-    // Write code here that turns the phrase above into concrete actions
-  waitFor(30);
-    
+    // Login for checkout
+	waitFor(4);
+	HomePage homepage = new HomePage();
+	homepage.verifyLandingOnHomepage();
+	WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[2]/a"));
+	jsclick(driver, loginButton);
+	logger.info("User Redirected to Login Page");
+	waitFor(3);
+	SignInPage loginOb = new SignInPage();
+	loginOb.signIn("userId", "password");
+	
+	// Searching & Adding product to cart
+	waitFor(2);
+	searchField = driver.findElement(By.xpath("//*[@id=\"search\"]/input")); 
+	drawborder(searchField);
+	searchField.clear();
+	searchField.sendKeys("phone");
+	WebElement searchIcon =driver.findElement(By.xpath("//*[@id=\"search\"]/span/button"));
+	drawborder(searchIcon);
+	 searchIcon.click();
+	 
+	 // Add to Cart
+	 waitFor(3);
+	 WebElement addToCartButton = driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div/div/div[2]/div[2]/button[1]/span"));
+	 scrollToElement(addToCartButton);
+	 drawborder(addToCartButton);
+	 addToCartButton.click();
+	 
+	 waitFor(4);
+		WebElement messageField= driver.findElement(By.xpath("//*[@id=\"product-search\"]/div[1]"));
+		String text=getElementText(messageField);
+		softAssert.softAssertTrue(text.toLowerCase().contains("success"), text, "Product was not added to cart.");
 }
 
 @Given("user clicks on cart button")
