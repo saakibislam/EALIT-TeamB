@@ -84,7 +84,11 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 	public void verify_link_sent_confirmation() {
 		waitFor(5);
 		String text = getElementText(driver.findElement(By.xpath("//*[@id=\"account-login\"]/div[1]")));
-		softAssert.softAssertTrue(text.toLowerCase().contains("has been sent your email address."), text, text);
+		try {
+			softAssert.softAssertTrue(text.toLowerCase().contains("has been sent your email address."), text, text);			
+		}catch (Exception e) {
+			softAssert.handleAssertionFailure(text);
+		}
 	}
 	
 	// Common steps for successful & unsuccessful login
