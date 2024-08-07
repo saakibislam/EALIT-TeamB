@@ -6,7 +6,8 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-
+import com.pdl.pages.HomePage;
+import com.pdl.pages.SignInPage;
 import com.pdl.utilities.CommonMethods;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -21,19 +22,28 @@ WebElement searchField;
 
 	@Given("User is logged in")
 	public void user_is_logged_in() {
-		waitFor(30);     
+		waitFor(4);
+		HomePage homepage = new HomePage();
+		homepage.verifyLandingOnHomepage();
+		WebElement loginButton = driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/ul/li[2]/a"));
+		jsclick(driver, loginButton);
+		logger.info("User Redirected to Login Page");
+		waitFor(3);
+		SignInPage loginOb = new SignInPage();
+		loginOb.signIn("userId", "password");
 	}
 
 	@And("User Clicks on Search bar")
 	public void user_clicks_on_search_bar() {
+		waitFor(2);
 		searchField = driver.findElement(By.xpath("//*[@id=\"search\"]/input")); 
-		searchField.clear();
-
+		drawborder(searchField);
 	}
+	
 	@When("User types product on search bar")
 	public void user_types_product_on_search_bar() {
+		searchField.clear();
 		searchField.sendKeys("phone");
-		waitFor(3);
 	}
 
    public void searchingProduct(String productName) {
@@ -52,14 +62,17 @@ WebElement searchField;
 	@And("User click search button")
 	public void user_click_search_button() {
 		WebElement searchIcon =driver.findElement(By.xpath("//*[@id=\"search\"]/span/button"));
+		drawborder(searchIcon);
 		 searchIcon.click();
 		 
 	}
 
 	@And("User click on add to cart")
 	public void the_user_adds_product_to_the_cart() {
-		 waitFor(5);
+		 waitFor(3);
 		 WebElement addToCartButton = driver.findElement(By.xpath("//*[@id=\"content\"]/div[3]/div/div/div[2]/div[2]/button[1]/span"));
+		 scrollToElement(addToCartButton);
+		 drawborder(addToCartButton);
 		 addToCartButton.click();
 
 	}
@@ -71,7 +84,7 @@ WebElement searchField;
 
 	@Then("Successfully message verification")
 	public void Successfull_message_verification() {
-		waitFor(10);
+		waitFor(4);
 		WebElement messageField= driver.findElement(By.xpath("//*[@id=\"product-search\"]/div[1]"));
 		String text=getElementText(messageField);
 		softAssert.softAssertTrue(text.toLowerCase().contains("success"), text, "Product was not added to cart.");

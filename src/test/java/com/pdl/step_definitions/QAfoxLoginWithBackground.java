@@ -97,8 +97,8 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 	public void user_types_credentials_and(String email, String password) {
 		System.out.println(email);
 		System.out.println(password);
-		SignInPage invalidLogin = new SignInPage();
-		invalidLogin.signIn(email, password);;
+		SignInPage loginOb = new SignInPage();
+		loginOb.signIn(email, password);
 	}
 	
 	@And("User sees error message")
