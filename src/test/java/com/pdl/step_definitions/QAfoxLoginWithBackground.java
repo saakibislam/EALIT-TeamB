@@ -64,10 +64,12 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 		
 	}
 	
+	// User types email for reset link
 	@And("User types email")
 	public void user_types_email() {
 		logger.info("User typing email for reset link");
 		WebElement emailField = driver.findElement(By.xpath("//*[@id=\"input-email\"]"));
+		drawborder(emailField);
 		emailField.clear();
 		emailField.sendKeys(ConfigurationReader.getProperty("userId"));
 	}
@@ -75,7 +77,7 @@ public class QAfoxLoginWithBackground extends CommonMethods{
 	@Then("User clicks continue")
 	public void user_clicks_continue() {
 		logger.info("User clicked on continue button");
-		driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/div[2]/input")).click();
+		click_BD(driver.findElement(By.xpath("//*[@id=\"content\"]/form/div/div[2]/input")));;
 	}
 	
 	@And("Verify link sent confirmation")
