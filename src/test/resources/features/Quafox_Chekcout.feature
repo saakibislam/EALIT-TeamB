@@ -1,7 +1,7 @@
 Feature: Title of your feature
   I want to use this template for my feature file
 
-  @qaf_checkout
+  @qaf_checkout @smoke @regression
   Scenario: Checkout
     Given the product is added to the cart
     And user clicks on cart button

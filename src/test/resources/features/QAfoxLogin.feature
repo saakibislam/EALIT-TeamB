@@ -5,19 +5,19 @@ Feature: User Login
     Given User is in homepage
     And User navigates to loginpage
 
-  @resetpassword
+  @resetpassword @smoke
   Scenario: User wants to reset password
     Then User clicks on forgot password
     And User types email
     Then User clicks continue
     And Verify link sent confirmation
 
-  @successful-login @smoke
+  @successful-login @smoke @regression
   Scenario: User successfull login
     Then User types credentials "userId" and "password"
     And Verify user redirected to my account page
 
-  @unsuccessful-login
+  @unsuccessful-login @smoke
   Scenario Outline: User login with invalid credentials
     Then User types credentials "<emailData>" and "<passwordData>"
     And User sees error message

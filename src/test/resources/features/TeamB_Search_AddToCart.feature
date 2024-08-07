@@ -1,7 +1,7 @@
 Feature: Working on YourStore Search and Add to cart button
 
 
-  @Search_SingleProduct
+  @Search_SingleProduct @smoke @regression
   Scenario: Users Searching and adding product to cart.
     Given User is logged in 
     And User Clicks on Search bar
@@ -10,7 +10,7 @@ Feature: Working on YourStore Search and Add to cart button
     Then User click on add to cart
     Then Successfully message verification
   
-  @Search_Multipleproduct
+  @Search_Multipleproduct @smoke
   Scenario Outline: User Searching multiple product
     Given User is logged in
     And User Clicks on Search bar
